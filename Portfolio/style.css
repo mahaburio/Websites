@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: var(--main-color);
+}
+
+:root {
+  --main-color: #03001c;
+  --sub-color: #00fff6;
+  --bg-sub-color: #00fff611;
+  --alt-color: #ffc107;
+  --text-color: #ffffff;
+  --border-color: #00fff655;
+}
+
+/* !========= NAVBAR-SECTON =========! */
+
+.navbar_section{
+  height: 75px;
+
+}
+
+.navbar_section .navbar-brand img {
+  width: 150px;
+}
+
+.navbar_section .navbar-nav .nav-item {
+  padding: 0px 8px;
+}
+
+.navbar_section .navbar-nav .nav-item .nav-link {
+  font-size: 18px;
+  color: var(--text-color);
+  transition: 0.3s;
+  position: relative;
+}
+
+.navbar_section .navbar-nav .nav-item .nav-link:hover {
+  color: var(--sub-color);
+  transition: 0.4s;
+  position: relative;
+}
+
+.navbar_section .navbar-nav .nav-item .nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  bottom: 0px;
+  height: 2px;
+  background-color: var(--sub-color);
+  left: 0;
+  transition: 0.4s;
+}
+
+.navbar_section .navbar-nav .nav-item .nav-link:hover::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+}
+
+/* !========= HERO-SECTON =========!  */
+
+.hero_section {
+  height: calc(100vh - 75px);
+}
+
+.hero_section .hero_row{
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.hero_section .left_side{
+  height: 100%;
+}
+
+.hero_section .left_side h1 {
+  color: var(--alt-color);
+  font-size: 30px;
+  padding: 0px 15px;
+}
+
+.hero_section .left_side h1 span {
+  color: var(--text-color);
+  font-size: 22px;
+}
+
+.hero_section .left_side h2 {
+  font-size: 65px;
+  padding: 0px 10px;
+  color: var(--text-color);
+}
+
+.hero_section .left_side h3 {
+  color: var(--text-color);
+  font-size: 30px;
+  padding: 0px 15px;
+}
+
+.hero_section .left_side #nmMahabur {
+  color: var(--alt-color);
+}
+
+.hero_section .right_side{
+  height: ;
+}
+
+
+.hero_section .right_side img{
+  position: relative;
+  top: 70px;
+  width: 100%;
+}
+
+
+
+/* !========= RESPONSIVE =========!  */
+
+@media (max-width:991px) {
+
+  .navbar_section .navbar-toggler{
+    color: var(--sub-color);
+  }
+
+  .hero_section .left_side h2 {
+    font-size: 50px;
+  }
+
+  .navbar_section .navbar-collapse{
+    background-color: var(--main-color);
+  
+  }
+
+  .navbar_section .navbar-nav .nav-item {
+    padding: 0px 0px;
+    border-bottom: 1px solid #fffa;
+    margin: 2px;
+  }
+  
+  .navbar_section .navbar-nav .nav-item .nav-link {
+    width: 100%;
+    padding-left: 2px;
+    
+  }
+
+  .navbar_section .navbar-nav .nav-item .nav-link:hover::after{
+    content: '';
+    width: 0;
+  }
+  
+  
+
+}
+
+@media (max-width:600px) {
+
+  .navbar_section .navbar-toggler{
+    color: var(--sub-color);
+  }
+
+  .hero_section .left_side h2 {
+    font-size: 35px;
+  }
+
+}
+
