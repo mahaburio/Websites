@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(
+    to right top,
+    #3e66a4,
+    #5965bd,
+    #845ece,
+    #b74ad1,
+    #eb12c6
+  );
+}
+
+.hero .box {
+  height: 80vh;
+  width: 25vw;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 30px;
+  overflow: hidden;
+  box-shadow: 0px 0px 50px #00000086;
+}
+
+.hero .box .input_sec {
+  height: 85%;
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.hero .box .input_sec label {
+  font-size: 14px;
+}
+
+.hero .box .input_sec input {
+  width: 100%;
+  height: 50px;
+  border: none;
+  margin-bottom: 30px;
+  border-bottom: 2px solid rgba(153, 149, 149, 0.667);
+}
+
+.hero .box .input_sec input:focus {
+  outline: none;
+}
+
+.hero .box .input_sec input:focus::placeholder {
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.hero .box .input_sec textarea {
+  border: none;
+  width: 100%;
+  border-bottom: 2px solid rgba(153, 149, 149, 0.667);
+}
+
+.hero .box .input_sec textarea:focus {
+  outline: none;
+}
+
+.hero .box .input_sec textarea:focus::placeholder {
+  opacity: 0;
+  transition: 0.3s;
+}
+
+
+
+
+
+
+
+
