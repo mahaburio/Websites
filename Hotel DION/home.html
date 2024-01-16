@@ -1,0 +1,1299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hotel DION</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+      integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/umin.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/slider.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <header>
+        <!--============== NAVBAR-SECITON ==============✅✅✅✅✅✅-->
+
+        <nav class="navbar navbar-expand-lg">
+          <div class="container">
+            <a class="navbar-brand logo-one" href="#"
+              ><img src="assests/Logo.svg" alt=""
+            /></a>
+            <a class="navbar-brand logo-two" href="#"
+              ><img src="assests/Logo 3 1.svg" alt=""
+            /></a>
+            <button id="hideBtn" class="ms-md-5 ms-xs-5 book-now-btn btn">
+              Book Now
+            </button>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#right-slide"
+              aria-controls="navBar"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navBar">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active-link home-link"
+                    aria-current="page"
+                    href="home.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="news.html">News</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="rooms.html">Rooms</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <button id="bookBtn" class="bookBtn">Book Now</button>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link lang" href="#"
+                    ><span style="font-weight: 500">EN</span>/CH</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="right-slide"
+          aria-labelledby="navbarSlide"
+        >
+          <div class="offcanvas-header">
+            <button
+              type="button"
+              id="close-btn"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            >
+              <i class="ri-arrow-left-s-line"></i>Back
+            </button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="home.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="news.html">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="rooms.html">Rooms</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link lang" href="#"
+                  ><span style="font-weight: 500">EN</span>/CH</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <!--================== BANNER-SECTION ====================✅✅✅✅✅✅-->
+
+      <div class="banner-section">
+        <section>
+          <div id="carouselCard" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselCard"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselCard"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselCard"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselCard"
+                data-bs-slide-to="3"
+                aria-label="Slide 4"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselCard"
+                data-bs-slide-to="4"
+                aria-label="Slide 5"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  id="carousel-img-one"
+                  src="assests/home.png"
+                  class=""
+                  alt="..."
+                />
+
+                <img
+                  class="hide-carousel-img"
+                  id="hide-caro-img1"
+                  src="assests/contact-res.png"
+                  alt=""
+                />
+
+                <div class="carousel-caption d-md-block">
+                  <div class="container">
+                    <div class="content-box">
+                      <h1 class="banner-text">
+                        Where Dreams Come true to life.
+                      </h1>
+                      <p class="banner-subtext">
+                        Lorem ipsum dolor sit amet consectetur adipiscing eli
+                        mattis sit phasellus mollis sit aliquam sit nullam neque
+                        ultrices.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  id="carousel-img-two"
+                  src="assests/about.png"
+                  class=""
+                  alt="..."
+                />
+
+                <img
+                  class="hide-carousel-img"
+                  id="hide-caro-img2"
+                  src="assests/TmRckxjJoP8.png"
+                  alt=""
+                />
+
+                <div class="carousel-caption d-md-block">
+                  <div class="container">
+                    <div class="content-box">
+                      <h1 class="banner-text">
+                        Where Dreams Come true to life.
+                      </h1>
+                      <p class="banner-subtext">
+                        Lorem ipsum dolor sit amet consectetur adipiscing eli
+                        mattis sit phasellus mollis sit aliquam sit nullam neque
+                        ultrices.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  id="carousel-img-three"
+                  src="assests/news.png"
+                  class=""
+                  alt="..."
+                />
+
+                <img
+                  class="hide-carousel-img"
+                  id="hide-caro-img3"
+                  src="assests/TmRckxjJoP8.png "
+                />
+
+                <div class="carousel-caption d-md-block">
+                  <div class="container">
+                    <div class="content-box">
+                      <h1 class="banner-text">
+                        Where Dreams Come true to life.
+                      </h1>
+                      <p class="banner-subtext">
+                        Lorem ipsum dolor sit amet consectetur adipiscing eli
+                        mattis sit phasellus mollis sit aliquam sit nullam neque
+                        ultrices.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  id="carousel-img-four"
+                  src="assests/contact.png"
+                  class=""
+                  alt="..."
+                />
+
+                <img
+                  class="hide-carousel-img"
+                  id="hide-caro-img4"
+                  src="assests/TmRckxjJoP8.png"
+                  alt=""
+                />
+
+                <div class="carousel-caption d-md-block">
+                  <div class="container">
+                    <div class="content-box">
+                      <h1 class="banner-text">
+                        Where Dreams Come true to life.
+                      </h1>
+                      <p class="banner-subtext">
+                        Lorem ipsum dolor sit amet consectetur adipiscing eli
+                        mattis sit phasellus mollis sit aliquam sit nullam neque
+                        ultrices.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  id="carousel-img-five"
+                  src="assests/room.png"
+                  class=""
+                  alt="..."
+                />
+
+                <img
+                  class="hide-carousel-img"
+                  id="hide-caro-img5"
+                  src="assests/TmRckxjJoP8.png"
+                  alt=""
+                />
+
+                <div class="carousel-caption d-md-block">
+                  <div class="container">
+                    <div class="content-box">
+                      <h1 class="banner-text">
+                        Where Dreams Come true to life.
+                      </h1>
+                      <p class="banner-subtext">
+                        Lorem ipsum dolor sit amet consectetur adipiscing eli
+                        mattis sit phasellus mollis sit aliquam sit nullam neque
+                        ultrices.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselCard"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselCard"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+      </div>
+
+      <!-- ================== WHATS NEW IN DION =================== -->
+
+      <section class="mt-5" id="whats-new">
+        <!-- ============= NEWS-SECTION ================= -->
+
+        <section class="news-sections my-5">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="card left-card mt-4">
+                  <div class="head">
+                    <p>Whats new in dion</p>
+                    <p>01</p>
+                  </div>
+                  <h1 class="news-header py-4">Latest News</h1>
+                  <div class="swiper-button-next next-button"></div>
+                  <div class="swiper-button-prev prev-button"></div>
+                  <div class="swiper-pagination" id="pagination-1"></div>
+                  <div class="swiper secondSwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide" id="swipperrr">
+                        <div class="card left-content">
+                          <h6 class="deluxe-lux">Gym area x drift bar</h6>
+                          <p class="deluxe-para">
+                            How do you create compelling presentations that wow
+                            your colleagues and impress your managers?How do you
+                            create compelling presentations that wow your
+                            colleagues and impress your managers?
+                          </p>
+                        </div>
+                      </div>
+                      <div class="swiper-slide" id="swipperrr">
+                        <div class="card left-content">
+                          <h6 class="deluxe-lux">Gym area x drift bar</h6>
+                          <p class="deluxe-para">
+                            How do you create compelling presentations that wow
+                            your colleagues and impress your managers?How do you
+                            create compelling presentations that wow your
+                            colleagues and impress your managers?
+                          </p>
+                        </div>
+                      </div>
+                      <div class="swiper-slide" id="swipperrr">
+                        <div class="card left-content">
+                          <h6 class="deluxe-lux">Gym area x drift bar</h6>
+                          <p class="deluxe-para">
+                            How do you create compelling presentations that wow
+                            your colleagues and impress your managers?How do you
+                            create compelling presentations that wow your
+                            colleagues and impress your managers?
+                          </p>
+                        </div>
+                      </div>
+                      <div class="swiper-slide" id="swipperrr">
+                        <div class="card left-content">
+                          <h6 class="deluxe-lux">Gym area x drift bar</h6>
+                          <p class="deluxe-para">
+                            How do you create compelling presentations that wow
+                            your colleagues and impress your managers?How do you
+                            create compelling presentations that wow your
+                            colleagues and impress your managers?
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="swiper-slide" id="swipperrr">
+                        <div class="card left-content">
+                          <h6 class="deluxe-lux">Gym area x drift bar</h6>
+                          <p class="deluxe-para">
+                            How do you create compelling presentations that wow
+                            your colleagues and impress your managers?How do you
+                            create compelling presentations that wow your
+                            colleagues and impress your managers?
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="check-rooms-btn mt-lg-4 mb-md-2">
+                    Check News
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+
+              <div class="col-lg-8 mt-4">
+                <div class="card right-card">
+                  <div class="card-box">
+                    <div class="swiper secondSwipers">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide first">
+                          <p class="card-date">2023/03/31</p>
+
+                          <div class="card text-start">
+                            <img
+                              class="card-img-top"
+                              src="assests/Image (11).png"
+                              alt="Title"
+                            />
+                            <div class="card-body">
+                              <p class="card-title">Design</p>
+                              <div class="gym">
+                                <h1>Gym area X Drift Bar</h1>
+                                <p>
+                                  <span class="material-symbols-outlined">
+                                    arrow_outward
+                                  </span>
+                                </p>
+                              </div>
+                              <p class="gym-des">
+                                How do you create compelling presentations that
+                                wow your colleagues and impress your managers?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide first">
+                          <p class="card-date">2023/03/31</p>
+
+                          <div class="card text-start">
+                            <img
+                              class="card-img-top"
+                              src="assests/Image (12).png"
+                              alt="Title"
+                            />
+                            <div class="card-body">
+                              <p class="card-title">Design</p>
+                              <div class="gym">
+                                <h1>Gym area X Drift Bar</h1>
+                                <p>
+                                  <span class="material-symbols-outlined">
+                                    arrow_outward
+                                  </span>
+                                </p>
+                              </div>
+                              <p class="gym-des">
+                                How do you create compelling presentations that
+                                wow your colleagues and impress your managers?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide first">
+                          <p class="card-date">2023/03/31</p>
+
+                          <div class="card text-start">
+                            <img
+                              class="card-img-top"
+                              src="assests/Image (13).png"
+                              alt="Title"
+                            />
+                            <div class="card-body">
+                              <p class="card-title">Design</p>
+                              <div class="gym">
+                                <h1>Gym area X Drift Bar</h1>
+                                <p>
+                                  <span class="material-symbols-outlined">
+                                    arrow_outward
+                                  </span>
+                                </p>
+                              </div>
+                              <p class="gym-des">
+                                How do you create compelling presentations that
+                                wow your colleagues and impress your managers?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide first">
+                          <p class="card-date">2023/03/31</p>
+
+                          <div class="card text-start">
+                            <img
+                              class="card-img-top"
+                              src="assests/Image (14).png"
+                              alt="Title"
+                            />
+                            <div class="card-body">
+                              <p class="card-title">Design</p>
+                              <div class="gym">
+                                <h1>Gym area X Drift Bar</h1>
+                                <p>
+                                  <span class="material-symbols-outlined">
+                                    arrow_outward
+                                  </span>
+                                </p>
+                              </div>
+                              <p class="gym-des">
+                                How do you create compelling presentations that
+                                wow your colleagues and impress your managers?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide first">
+                          <p class="card-date">2023/03/31</p>
+
+                          <div class="card text-start">
+                            <img
+                              class="card-img-top"
+                              src="assests/Image (11).png"
+                              alt="Title"
+                            />
+                            <div class="card-body">
+                              <p class="card-title">Design</p>
+                              <div class="gym">
+                                <h1>Gym area X Drift Bar</h1>
+                                <p>
+                                  <span class="material-symbols-outlined">
+                                    arrow_outward
+                                  </span>
+                                </p>
+                              </div>
+                              <p class="gym-des">
+                                How do you create compelling presentations that
+                                wow your colleagues and impress your managers?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="swiper-slide first">
+                          <p class="card-date">2023/03/31</p>
+
+                          <div class="card text-start">
+                            <img
+                              class="card-img-top"
+                              src="assests/Image (12).png"
+                              alt="Title"
+                            />
+                            <div class="card-body">
+                              <p class="card-title">Design</p>
+                              <div class="gym">
+                                <h1>Gym area X Drift Bar</h1>
+                                <p>
+                                  <span class="material-symbols-outlined">
+                                    arrow_outward
+                                  </span>
+                                </p>
+                              </div>
+                              <p class="gym-des">
+                                How do you create compelling presentations that
+                                wow your colleagues and impress your managers?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide first">
+                          <p class="card-date">2023/03/31</p>
+
+                          <div class="card text-start">
+                            <img
+                              class="card-img-top"
+                              src="assests/Image (13).png"
+                              alt="Title"
+                            />
+                            <div class="card-body">
+                              <p class="card-title">Design</p>
+                              <div class="gym">
+                                <h1>Gym area X Drift Bar</h1>
+                                <p>
+                                  <span class="material-symbols-outlined">
+                                    arrow_outward
+                                  </span>
+                                </p>
+                              </div>
+                              <p class="gym-des">
+                                How do you create compelling presentations that
+                                wow your colleagues and impress your managers?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ============ ROOMS-SECTIONS ============= -->
+
+        <section class="rooms-sections mt-5 mb-5">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="card left-card">
+                  <div class="head">
+                    <p>rOOMS in dion</p>
+                    <p>02</p>
+                  </div>
+                  <h1 class="rooms-header py-4">ROOMS</h1>
+                  <div class="swiper-button-next first-next-btn"></div>
+                  <div class="swiper-button-prev second-next-btn"></div>
+                  <div class="swiper-paginations" id="pagination"></div>
+                  <div class="swiper firstSwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide" id="swipperrr">
+                        <div class="card left-content">
+                          <h6 class="deluxe-lux">deluxe luxury rOOM</h6>
+                          <p class="deluxe-para">
+                            A deluxe room has a king bed and a queen one, so
+                            actually 2 big beds. A big bathroom with raining
+                            shower, balcony , telephone, television, air
+                            condition just renovated.
+                          </p>
+                          <p class="deluxe-bedroom">2 Bedroom Combined Lodge</p>
+                          <p class="deluxe-date">28 October — 1 November</p>
+                          <p class="deluxe-dollars">
+                            <span class="fw-bold">$206</span> /Per night
+                          </p>
+                          <div class="deluxe-icon-text mt-2 ps-2">
+                            <div class="row">
+                              <table>
+                                <tr>
+                                  <td class="icon">
+                                    <span class="material-symbols-outlined">
+                                      bed
+                                    </span>
+                                  </td>
+                                  <td>2 Beds</td>
+                                  <td class="icon">
+                                    <span class="material-symbols-outlined">
+                                      person
+                                    </span>
+                                  </td>
+                                  <td>4 Sleeps</td>
+                                  <td class="icon">
+                                    <span class="material-symbols-outlined">
+                                      aspect_ratio
+                                    </span>
+                                  </td>
+                                  <td>1,350 Sq Ft</td>
+                                </tr>
+                              </table>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="swiper-slide" id="swipperrr">
+                        <div class="card left-content">
+                          <h6 class="deluxe-lux">deluxe luxury rOOM</h6>
+                          <p class="deluxe-para">
+                            A deluxe room has a king bed and a queen one, so
+                            actually 2 big beds. A big bathroom with raining
+                            shower, balcony , telephone, television, air
+                            condition just renovated.
+                          </p>
+                          <p class="deluxe-bedroom">2 Bedroom Combined Lodge</p>
+                          <p class="deluxe-date">28 October — 1 November</p>
+                          <p class="deluxe-dollars">
+                            <span class="fw-bold">$206</span> /Per night
+                          </p>
+                          <div class="deluxe-icon-text mt-2 ps-2">
+                            <div class="row">
+                              <table>
+                                <tr>
+                                  <td class="icon">
+                                    <span class="material-symbols-outlined">
+                                      bed
+                                    </span>
+                                  </td>
+                                  <td>2 Beds</td>
+                                  <td class="icon">
+                                    <span class="material-symbols-outlined">
+                                      person
+                                    </span>
+                                  </td>
+                                  <td>4 Sleeps</td>
+                                  <td class="icon">
+                                    <span class="material-symbols-outlined">
+                                      aspect_ratio
+                                    </span>
+                                  </td>
+                                  <td>1,350 Sq Ft</td>
+                                </tr>
+                              </table>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="swiper-slide" id="swipperrr">
+                        <div class="card left-content">
+                          <h6 class="deluxe-lux">deluxe luxury rOOM</h6>
+                          <p class="deluxe-para">
+                            A deluxe room has a king bed and a queen one, so
+                            actually 2 big beds. A big bathroom with raining
+                            shower, balcony , telephone, television, air
+                            condition just renovated.
+                          </p>
+                          <p class="deluxe-bedroom">2 Bedroom Combined Lodge</p>
+                          <p class="deluxe-date">28 October — 1 November</p>
+                          <p class="deluxe-dollars">
+                            <span class="fw-bold">$206</span> /Per night
+                          </p>
+                          <div class="deluxe-icon-text mt-2 ps-2">
+                            <div class="row">
+                              <table>
+                                <tr>
+                                  <td class="icon">
+                                    <span class="material-symbols-outlined">
+                                      bed
+                                    </span>
+                                  </td>
+                                  <td>2 Beds</td>
+                                  <td class="icon">
+                                    <span class="material-symbols-outlined">
+                                      person
+                                    </span>
+                                  </td>
+                                  <td>4 Sleeps</td>
+                                  <td class="icon">
+                                    <span class="material-symbols-outlined">
+                                      aspect_ratio
+                                    </span>
+                                  </td>
+                                  <td>1,350 Sq Ft</td>
+                                </tr>
+                              </table>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="swiper-slide" id="swipperrr">
+                        <div class="card left-content">
+                          <h6 class="deluxe-lux">deluxe luxury rOOM</h6>
+                          <p class="deluxe-para">
+                            A deluxe room has a king bed and a queen one, so
+                            actually 2 big beds. A big bathroom with raining
+                            shower, balcony , telephone, television, air
+                            condition just renovated.
+                          </p>
+                          <p class="deluxe-bedroom">2 Bedroom Combined Lodge</p>
+                          <p class="deluxe-date">28 October — 1 November</p>
+                          <p class="deluxe-dollars">
+                            <span class="fw-bold">$206</span> /Per night
+                          </p>
+                          <div class="deluxe-icon-text mt-2 ps-2">
+                            <div class="row">
+                              <table>
+                                <tr>
+                                  <td class="icon">
+                                    <span class="material-symbols-outlined">
+                                      bed
+                                    </span>
+                                  </td>
+                                  <td>2 Beds</td>
+                                  <td class="icon">
+                                    <span class="material-symbols-outlined">
+                                      person
+                                    </span>
+                                  </td>
+                                  <td>4 Sleeps</td>
+                                  <td class="icon">
+                                    <span class="material-symbols-outlined">
+                                      aspect_ratio
+                                    </span>
+                                  </td>
+                                  <td>1,350 Sq Ft</td>
+                                </tr>
+                              </table>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="check-rooms-btn mt-3 mb-lg-4 mb-md-2">
+                      Check Rooms
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-8 mt-4">
+                <div class="card right-card">
+                  <div class="card-box">
+                    <div class="swiper firstSwiper">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide first">
+                          <img src="assests/Image (14).png" alt="" />
+                          <h6>deluxe luxury rOOM</h6>
+                        </div>
+                        <div class="swiper-slide second">
+                          <img src="assests/Image (5).png" alt="" />
+                          <h6>deluxe luxury rOOM</h6>
+                        </div>
+                        <div class="swiper-slide third">
+                          <img src="assests/Image (6).png" alt="" />
+                          <h6>deluxe luxury rOOM</h6>
+                        </div>
+                        <div class="swiper-slide four">
+                          <img src="assests/Image (8).png" alt="" />
+                          <h6>deluxe luxury rOOM</h6>
+                        </div>
+                        <div class="swiper-slide four">
+                          <img src="assests/Image (8).png" alt="" />
+                          <h6>deluxe luxury rOOM</h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--========== Amenities-SECTION =============-->
+
+        <section
+          id="amenities-section"
+          class="mt-5 d-lg-block d-md-block d-sm-none d-none"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="head-sec">
+                  <p class="whats-new-head fw-bold">AMENITIES</p>
+                  <p>03</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-5 d-md-flex d-sm-flex justify-content-center">
+                <div class="img-part">
+                  <div class="under-shadow"></div>
+                  <div class="img-sec">
+                    <img src="assests/image 3.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-7 d-md-flex d-sm-flex justify-content-center">
+                <div class="right-section">
+                  <div class="resturant d-flex justify-content-between">
+                    <h1 class="text-uppercase">Restaurant(Café Dion)</h1>
+                    <span class="underline">_________</span>
+                  </div>
+                  <p class="mt-3">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a
+                    type specimen book. It has survived not only five centuries,
+                    but also the leap into electronic typesetting. 1500s, when
+                    an unknown printer took a galley of type and scrambled it to
+                    make a type specimen book. It has survived not only five
+                    centuries, but also the leap into electronic typesetting.
+                  </p>
+                  <button class="explore-more-btn mt-3">Explore More</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mt-5">
+              <div
+                class="col-lg-7 d-md-flex d-sm-flex justify-content-center mt-5"
+              >
+                <div class="right-section">
+                  <div class="resturant d-flex justify-content-between">
+                    <h1 class="text-uppercase">buisness center</h1>
+                    <span class="underline">_________</span>
+                  </div>
+                  <p class="mt-3">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a
+                    type specimen book. It has survived not only five centuries,
+                    but also the leap into electronic typesetting. 1500s, when
+                    an unknown printer took a galley of type and scrambled it to
+                    make a type specimen book. It has survived not only five
+                    centuries, but also the leap into electronic typesetting.
+                  </p>
+                  <button class="explore-more-btn mt-3">Explore More</button>
+                </div>
+              </div>
+              <div class="col-lg-5 d-md-flex d-sm-flex justify-content-center">
+                <div class="img-part">
+                  <div class="under-shadow"></div>
+                  <div class="img-sec">
+                    <img src="assests/image 3 (1).png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mt-5">
+              <div
+                class="col-lg-5 d-md-flex d-sm-flex justify-content-center mt-5"
+              >
+                <div class="img-part">
+                  <div class="under-shadow"></div>
+                  <div class="img-sec">
+                    <img src="assests/image 3 (2).png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-7 d-md-flex d-sm-flex justify-content-center">
+                <div class="right-section">
+                  <div class="resturant d-flex justify-content-between">
+                    <h1 class="text-uppercase">Fitness center</h1>
+                    <span class="underline">_________</span>
+                  </div>
+                  <p class="mt-3">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a
+                    type specimen book. It has survived not only five centuries,
+                    but also the leap into electronic typesetting. 1500s, when
+                    an unknown printer took a galley of type and scrambled it to
+                    make a type specimen book. It has survived not only five
+                    centuries, but also the leap into electronic typesetting.
+                  </p>
+                  <button class="explore-more-btn mt-3">Explore More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--==========HIDE Amenities-SECTION =============-->
+
+        <section
+          id="amenities-section"
+          class="hide-amenities-section mt-5 d-lg-none d-md-none d-sm-block"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="head-sec">
+                  <p class="whats-new-head fw-bold">AMENITIES</p>
+                  <p>03</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-5 d-md-flex d-sm-flex justify-content-center">
+                <div class="img-part">
+                  <div class="under-shadow"></div>
+                  <div class="img-sec">
+                    <img src="assests/image 3.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-7 d-md-flex d-sm-flex justify-content-center">
+                <div class="right-section">
+                  <div class="resturant d-flex justify-content-between">
+                    <h1 class="text-uppercase">Restaurant(Café Dion)</h1>
+                  </div>
+                  <p class="mt-3">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a
+                    type specimen book. It has survived not only five centuries,
+                    but also the leap into electronic typesetting. 1500s, when
+                    an unknown printer took a galley of type and scrambled it to
+                    make a type specimen book. It has survived not only five
+                    centuries, but also the leap into electronic typesetting.
+                  </p>
+                  <button class="explore-more-btn mt-3">Explore More</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mt-5">
+              <div
+                class="col-lg-5 d-md-flex d-sm-flex justify-content-center mt-5"
+              >
+                <div class="img-part">
+                  <div class="under-shadow"></div>
+                  <div class="img-sec">
+                    <img src="assests/image 3 (1).png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-7 d-md-flex d-sm-flex justify-content-center">
+                <div class="right-section">
+                  <div class="resturant d-flex justify-content-between">
+                    <h1 class="text-uppercase">Business center</h1>
+                  </div>
+                  <p class="mt-3">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a
+                    type specimen book. It has survived not only five centuries,
+                    but also the leap into electronic typesetting. 1500s, when
+                    an unknown printer took a galley of type and scrambled it to
+                    make a type specimen book. It has survived not only five
+                    centuries, but also the leap into electronic typesetting.
+                  </p>
+                  <button class="explore-more-btn mt-3">Explore More</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mt-5">
+              <div
+                class="col-lg-5 d-md-flex d-sm-flex justify-content-center mt-5"
+              >
+                <div class="img-part">
+                  <div class="under-shadow"></div>
+                  <div class="img-sec">
+                    <img src="assests/image 3 (2).png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-7 d-md-flex d-sm-flex justify-content-center">
+                <div class="right-section">
+                  <div class="resturant d-flex justify-content-between">
+                    <h1 class="text-uppercase">Fitness center</h1>
+                  </div>
+                  <p class="mt-3">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a
+                    type specimen book. It has survived not only five centuries,
+                    but also the leap into electronic typesetting. 1500s, when
+                    an unknown printer took a galley of type and scrambled it to
+                    make a type specimen book. It has survived not only five
+                    centuries, but also the leap into electronic typesetting.
+                  </p>
+                  <button class="explore-more-btn mt-3">Explore More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ============ about-us =========== -->
+
+        <section id="about-us">
+          <div class="container-fluid mt-5">
+            <div class="about-section mb-5">
+              <div class="row">
+                <div class="card about-card mt-2">
+                  <div class="about-hide-box d-flex justify-content-between">
+                    <p class="hide-contact-us text-light fw-bold">ABOUT US</p>
+                    <p class="text-light">04</p>
+                  </div>
+                </div>
+
+                <!--======= OVER-CARD=========== -->
+                <div class="card about-subcard">
+                  <div class="card-details">
+                    <p class="details-head">DION’S CULTURE</p>
+                    <h1>DION’S EXCEPTIONAL & EXCLUSIVE SERVICE</h1>
+                    <div class="semi-card">
+                      <p class="description">
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and
+                        scrambled it to make a type specimen book. It has
+                        survived not only five centuries.
+                      </p>
+                      <button class="explore-more-btn mt-5">
+                        Explore More
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <!-- ======================================== -->
+
+      <!-- =================== map-section ====================== ✅✅✅✅✅✅-->
+
+      <section id="Map-section">
+        <div class="container head-container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+              <div class="head-sec">
+                <p class="whats-new-head fw-bold">CONTACT US</p>
+                <p>05</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container mt-5">
+          <div class="map-section mb-5">
+            <div class="row">
+              <div class="card map-card mt-2"></div>
+
+              <!--======= OVER-CARD=========== -->
+              <div class="card map-subcard">
+                <div class="row">
+                  <div class="col-6">
+                    <h1>Address</h1>
+                    <p>
+                      No. 558, Section 3, Taiwan Boulevard, Xitun District,
+                      Taichung City, Taiwan
+                    </p>
+                  </div>
+                  <div class="col-6">
+                    <div class="row">
+                      <div class="col-12">
+                        <h1>Email</h1>
+                        <p>Dionscafe@gmail.com</p>
+                      </div>
+                      <div class="col-12">
+                        <h1>Phone Number</h1>
+                        <p>+982-500-5722</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--========== GET-TOUCH-SECTION ==============  -->
+
+      <section class="mb-5">
+        <div class="container">
+          <div class="get-touch-section">
+            <div class="card touch-card">
+              <div class="content">
+                <h1 class="get-touch">Get In Touch With Us</h1>
+                <p class="get-des">
+                  歡迎您透過本信件表單詢問住宿、訂房相關問題，或與
+                  我們分享您的住宿⼼得與建議
+                </p>
+                <button class="contact-us-btn">Contact Us</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========FOOTER-SECTION============== -->
+
+      <div class="section">
+        <div class="container-fluid footer">
+          <div class="container">
+            <footer>
+              <div class="row footerr">
+                <div class="col-lg-3 col-md-12 col-sm-12 first-foot">
+                  <div class="footer-logo">
+                    <img src="assests/footer-logo.png" alt="" />
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="personal-details">
+                        <a href=""
+                          >No. 558, Section 3, Taiwan Boulevard, Xitun District,
+                          Taichung City, Taiwan</a
+                        >
+                        <a href="mailto:Dioncafe@gmail.com"
+                          >Dioncafe@gmail.com</a
+                        >
+                        <a href="">+982-500-5722</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 footer-unorder">
+                  <div class="and">
+                    <ul class="footer-ul">
+                      <li class="footer-list"><a href="">About</a></li>
+                      <li class="footer-list"><a href="">News</a></li>
+                      <li class="footer-list"><a href="">Rooms</a></li>
+                      <li class="footer-list"><a href="">Contact Us</a></li>
+                      <li class="footer-list"><a href="">Book Now</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 third-foot">
+                  <div class="follow-side">
+                    <h2 class="footer-follow"><a href="">Follow Us!</a></h2>
+                    <a href="" class="font-icon"
+                      ><i class="bi bi-facebook"></i
+                    ></a>
+                    <a href="" class="font-icon"
+                      ><i class="bi bi-google"></i
+                    ></a>
+                    <a href="" class="font-icon"><i class="bi bi-apple"></i></a>
+                    <a href="" class="font-icon"
+                      ><i class="bi bi-instagram"></i
+                    ></a>
+                  </div>
+                  <div class="btn-section">
+                    <button class="subscribe">
+                      <i class="bi bi-bell"></i>Subscribe
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </footer>
+          </div>
+          <!-- footer-edn-sectioon -->
+          <div class="footer-end">
+            <p class="copyright-txt">
+              © 2023 Shehanweerasekara. All Rights Reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- container-fluid-end -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"></script>
+    <script src="js/slider.js"></script>
+  </body>
+</html>

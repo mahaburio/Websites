@@ -1,0 +1,519 @@
+/* ================ news-offers-seciton ================= */
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.news-offers {
+  min-height: 100vh;
+  width: 100%;
+  background: url("../assests/Rectangle 3699 (1).svg");
+}
+
+.news-offers-header .header-title {
+  font-weight: 500;
+  font-size: 36px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.news-offers .card .card-body .persent {
+  font-size: 24px;
+  color: #101828;
+  font-weight: 600;
+}
+
+.news-offers-header .header-subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.news-offers .card {
+  border: none;
+  border-radius: 0;
+  box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.07),
+    0px 4px 6px -2px rgba(16, 24, 40, 0.08);
+}
+
+.news-offers .card .news-header {
+  width: 100%;
+  height: 394px;
+  padding: 24px 24px 32px;
+  background: #ffffff;
+  border: transparent;
+}
+
+.news-offers .card .sub-card-header {
+  width: 100%;
+  height: 280px;
+  padding: 24px 24px 32px;
+  background: #ffffff;
+  border: transparent;
+}
+
+.news-offers .card .card-header img {
+  width: 100%;
+  height: 100%;
+}
+
+.news-offers .card-body p {
+  font-weight: 600;
+  font-size: 14px;
+  color: #c09b5a;
+  padding-left: 5px;
+}
+
+.news-offers .card-body .card-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+  width: 75%;
+  text-align: justify;
+  padding-right: 0px;
+}
+
+.news-offers .card-body .resturant-offer {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #c09b5a;
+}
+
+.news-offers-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 160px;
+  height: 40px;
+  background: #fff4e6;
+  border: 1px solid #bfa055;
+  box-shadow: 0px 3px 5px rgba(254, 190, 30, 0.15);
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+.news-offers-btn:hover {
+  background-color: #c09b5a;
+  transition: 0.3s;
+}
+
+.hide-sub-card {
+  display: none;
+}
+
+.news-offers .load-more {
+  display: flex;
+  justify-content: center;
+}
+
+.news-offers .load-more-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  font-weight: 500;
+  height: 45px;
+  background: transparent;
+  border: 1px solid #000000;
+  border-radius: 60px;
+  transition: 0.3s;
+  padding-right: 10px;
+}
+.news-offers .load-more .load-more-btn i {
+  font-size: 25px;
+  padding-left: 5px;
+}
+
+.news-offers .load-more-btn:hover {
+  background-color: #bfa055;
+  border: 1px solid #bfa055;
+  transition: 0.3s;
+}
+
+/* 🟡🟡🟡🟡🟡 TAIPEI-ARENA 🟡🟡🟡🟡🟡 */
+
+.taipei-arena {
+}
+
+.header-title {
+  font-weight: 500;
+  font-size: 36px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #000000;
+  position: relative;
+  display: inline-block;
+}
+
+.header-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 45px;
+  height: 2px;
+  width: 100%;
+  background-color: #c09b5a;
+}
+
+.header-subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.main-section-area {
+}
+
+.first-content h1 {
+  font-size: 36px;
+  align-items: center;
+  color: #000000;
+}
+
+.first-content p {
+  font-size: 16px;
+  align-items: center;
+  color: #667085;
+}
+
+.second-content p {
+  font-size: 16px;
+  align-items: center;
+  color: #667085;
+}
+
+.third-content p {
+  font-size: 16px;
+  align-items: center;
+  color: #667085;
+}
+
+.first-content .sub-title {
+  font-size: 16px;
+  padding-left: 5px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.first-content .description {
+  padding-left: 5px;
+}
+
+.second-content .sub-title {
+  font-size: 16px;
+  padding-left: 5px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.second-content .description {
+  padding-left: 5px;
+}
+
+.third-content .sub-title {
+  font-size: 16px;
+  padding-left: 5px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.third-content .description {
+  padding-left: 5px;
+}
+
+.first-img img {
+  width: 100%;
+}
+
+#whats-new .whats-new-head {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+#Map-section .head-sec {
+  height: 25px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  margin-bottom: 30px;
+}
+
+#Map-section .head-sec {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ============RESPONSIVE MAXIMUM==================== */
+
+@media screen and (max-width: 1200px) {
+  .main-section-area img {
+    height: 340px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .news-offers-header .header-title::after {
+    content: "";
+    top: 45px;
+  }
+
+  .main-section-area img {
+    height: auto;
+  }
+
+  .first-img {
+    padding-top: 100px;
+  }
+}
+
+/* ============= 768PX START ================= */
+
+@media screen and (max-width: 767px) {
+  .news-offers .container {
+    padding: 50px;
+  }
+
+  .news-offers .card {
+    padding: 0;
+  }
+
+  .news-offers .card .sub-card-header {
+    padding: 10px 10px;
+    height: 330px;
+  }
+
+  .news-offers .card .card-body {
+    padding: 10px 10px;
+  }
+
+  .news-offers .card .card-body p {
+    padding-right: 30px;
+  }
+
+  .news-offers .card-body .card-description {
+    width: 95%;
+  }
+
+  .hidden-news-repeat {
+    display: block;
+  }
+
+  .first-offers {
+    display: none;
+  }
+
+  .news-offers-header .header-title {
+    font-size: 32px;
+  }
+
+  .news-offers-header .header-title::after {
+    content: "";
+    top: 80px;
+  }
+
+  .news-offers .searc-box {
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+    padding-top: 20px;
+  }
+
+  .news-offers .searc-box i {
+    font-size: 22px;
+  }
+
+  .news-offers .searc-box #basic-addon1 {
+    position: relative;
+    left: 50px;
+    border: 0;
+    background-color: transparent;
+  }
+
+  .news-offers .searc-box input {
+    width: 80%;
+    padding: 10px 0px;
+    padding-left: 45px;
+    font-size: 20px;
+  }
+
+  .news-offers .searc-box input::placeholder {
+  }
+
+  .news-offers .searc-box input::before {
+    content: "\F52A";
+  }
+
+  .news-offers .searc-box input:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px;
+  }
+
+  /* =========== taipein-arean ================ */
+
+  .taipei-arena .container {
+    padding: 50px;
+  }
+
+  .taipei-arena .header-title {
+    font-size: 32px;
+  }
+
+  /* ============== HIDE-AREA-SECTION ================ */
+  #hideTaipeiArena {
+    height: 270px;
+  }
+
+  .carousel-indicators {
+  }
+
+  #hideTaipeiArena .carousel-indicators {
+    top: -40px;
+  }
+  #hideTaipeiArena .carousel-indicators [data-bs-target] {
+    background-color: rgba(0, 0, 0, 0.2);
+    opacity: 1;
+    transition: opacity 0.6s ease;
+  }
+
+  #hideTaipeiArena .carousel-indicators .active {
+    opacity: 1;
+    background-color: #c09b5a;
+  }
+
+  .hide-taipei-arena .carousel-item img {
+    height: 270px;
+    width: 100%;
+  }
+
+  #hideTaipeiArena {
+    position: relative;
+  }
+  #hideTaipeiArena .carousel-control-next,
+  #hideTaipeiArena .carousel-control-prev {
+    position: absolute;
+    width: 10%;
+    top: 22%;
+  }
+
+  #hideTaipeiArena .carousel-control-next {
+    position: absolute;
+    right: -55px;
+    z-index: 999999;
+    color: #000000;
+  }
+
+  #hideTaipeiArena .carousel-control-prev {
+    position: absolute;
+    left: -55px;
+    z-index: 999999;
+  }
+}
+
+/* ============RESPONSIVE MAXIMUM MOBILE-DEVICES==================== */
+
+@media screen and (max-width: 575px) {
+  #hideTaipeiArena .carousel-control-next {
+    right: -40px;
+  }
+
+  #hideTaipeiArena .carousel-control-prev {
+    left: -40px;
+  }
+
+  .news-offers .card .news-header {
+    width: 100%;
+    height: auto;
+    padding: 24px 24px 32px;
+    background: #ffffff;
+    border: transparent;
+  }
+
+  #hideTaipeiArena {
+    height: auto;
+  }
+
+  .hide-taipei-arena .carousel-item img {
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .taipei-arena .header-title::after {
+    top: 80px;
+  }
+
+  .header-subtitle {
+    font-size: 16px;
+    text-align: justify;
+  }
+
+  .news-offers .card .card-body .persent {
+    font-size: 18px;
+  }
+
+  .hide-taipei-arena .third-content .description {
+    text-align: justify;
+  }
+
+  #Map-section .head-hide-title {
+    padding: 0px 80px;
+  }
+
+  .news-offers .searc-box input {
+    width: 95%;
+    padding: 10px 0px;
+    padding-left: 45px;
+    font-size: 20px;
+  }
+
+  .taipei-arena .taipei-container {
+    padding-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .news-offers-header .header-title {
+    font-size: 24px;
+  }
+
+  .news-offers-header .header-title::after {
+    top: 70px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+}
+
+/* ============RESPONSIVE MINIMUM==================== */
+
+@media screen and (min-width: 576px) {
+}
+
+@media screen and (min-width: 768px) {
+  .hidden-news-repeat {
+    display: none;
+  }
+
+  .first-offers {
+    display: block;
+  }
+}
+
+/* ==========min-width 992px 🔴🟠🟡🟢🔵================= */
+
+@media screen and (min-width: 992px) {
+}
+
+/* ==========min-width 1200 🔴🟠🟡🟢🔵================= */
+
+@media screen and (min-width: 1200px) {
+}
+
+@media screen and (min-width: 1400px) {
+}

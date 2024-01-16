@@ -1,0 +1,321 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  /* overflow-x: hidden;
+        overflow-y: scroll; */
+}
+
+.header-title {
+  font-weight: 500;
+  font-size: 36px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #000000;
+  position: relative;
+  display: inline-block;
+  font-family: sans-serif;
+}
+
+.header-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 45px;
+  height: 2px;
+  width: 100%;
+  background-color: #c09b5a;
+}
+
+.header-subtitle {
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #667085;
+}
+
+.about-us {
+  min-height: 100vh;
+  width: 100%;
+  background: url("../assests/Rectangle 3699 (1).svg");
+}
+
+.about-us .about-section .first-image img {
+  width: 100%;
+  position: relative;
+  left: -10px;
+}
+
+.about-us .about-section .second-image img {
+  width: 100%;
+  position: relative;
+  left: 0px;
+}
+
+.about-us .about-section .logo {
+  position: relative;
+  left: -10px;
+}
+
+.about-us .about-section .sub-title {
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #667085;
+}
+
+/*============== service================ */
+
+.about-us .service-section .service-icon {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: auto;
+  gap: 30px;
+}
+
+.about-us .service-section .service-icon .air-cond{
+  position: relative;
+  bottom: 5px;
+}
+
+
+
+.about-us .service-section .service-icon a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.buisness-section p,
+.fitnes-section p,
+.resturant-section p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 210%;
+  color: #667085;
+}
+
+.buisness-section .box-image,
+.fitnes-section .right-side,
+.fitness-section .box-image,
+.resturant-section .box-image {
+  position: relative;
+  right: 15px;
+}
+
+.buisness-section .card,
+.fitnes-section .card,
+.resturant-section .card,
+.menu-section .card {
+  border: none;
+  border-radius: 0px;
+}
+
+.buisness-section .buisness-center,
+.fitnes-section .fitnes-center,
+.resturant-section .resturant-center {
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+  text-transform: uppercase;
+  color: #c09b5a;
+}
+
+.buisness-section .box-image .img-side,
+.fitnes-section .box-image .img-side,
+.resturant-section .box-image .img-side {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 8px;
+}
+
+/* =========fitness============ */
+
+/* =====resturant========= */
+
+/* =========menu-section============ */
+
+.menu-section .menu-center {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.menu-section .menu-body {
+  height: 814px;
+  background: #f1f1f1;
+}
+
+@media screen and (max-width: 1199px) {
+  .about-us .service-section .service-icon {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .buisness-section .box-image,
+  .fitnes-section .box-image,
+  .buisness-section .first-box-img,
+  .fitnes-section .first-box-img,
+  .fitnes-section .right-side,
+  .fitnes-section .left-side,
+  .resturant-section .box-image,
+  .resturant-section .first-box-img {
+    position: relative;
+    right: -10px;
+  }
+
+  .buisness-section p,
+  .fitnes-section p,
+  .resturant-section p {
+    position: relative;
+    right: -10px;
+  }
+
+  .buisness-section .buisness-center,
+  .fitnes-section .fitnes-center,
+  .resturant-section .resturant-center {
+    position: relative;
+    right: -10px;
+  }
+  .menu-section .card {
+    position: relative;
+    right: -10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+}
+
+@media screen and (max-width: 575px) {
+  .about-us .about-section .contain {
+    padding: 50px;
+    padding-bottom: 0px;
+  }
+
+  .about-us .head-image-seciton {
+    padding: 0px;
+  }
+
+  .about-us .header-subtitle {
+    font-size: 16px;
+    text-align: justify;
+  }
+
+  .header-title {
+    font-size: 32px;
+  }
+
+  .about-us .about-section .sub-title {
+    font-size: 16px;
+    text-align: justify;
+  }
+
+  .header-title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 45px;
+    height: 2px;
+    width: 100%;
+    background-color: #c09b5a;
+  }
+
+  .about-us .service-section .service-icon a {
+    font-size: 12px;
+  }
+
+  .about-us .service-section .service-icon {
+    gap: 15px;
+  }
+
+  .about-us .service-section .container {
+    padding: 20px;
+  }
+
+  .buisness-section p,
+  .fitnes-section p,
+  .resturant-section p {
+    font-size: 16px;
+    padding: 50px;
+    padding-top: 0px;
+  }
+
+  .buisness-section .buisness-center,
+  .fitnes-section .fitnes-center,
+  .resturant-section .resturant-center {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 515px) {
+  .about-us .service-section .header-title {
+    padding-left: 20px;
+  }
+
+  .about-us .service-section .header-title::after {
+    left: 20px;
+    width: 90%;
+  }
+
+  .buisness-section p,
+  .fitnes-section p,
+  .resturant-section p {
+    text-align: justify;
+  }
+  .buisness-section .box-image .img-side,
+  .fitnes-section .box-image .img-side,
+  .resturant-section .box-image .img-side {
+    padding: 0px 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 430px) {
+}
+
+@media screen and (max-width: 380px) {
+}
+
+@media screen and (max-width: 330px) {
+}
+
+/* ================= max- ================== */
+
+@media screen and (max-width: 576px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 1400px) {
+}

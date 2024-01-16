@@ -1,0 +1,603 @@
+.rooms-sections {
+  min-height: 80vh;
+  width: 100vw;
+  background-color: transparent;
+}
+
+.rooms-sections .container-fluid {
+}
+
+.rooms-sections .head {
+  width: 100%;
+  height: 25px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+}
+
+.rooms-sections .head p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.rooms-sections .container-fluid .left-card {
+  min-height: 400px;
+  position: relative;
+}
+
+.rooms-sections .container-fluid .left-card .left-content {
+}
+
+.rooms-sections .left-card .rooms-header {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #c09b5a;
+}
+
+.rooms-sections .left-card {
+  width: 100%;
+  height: auto;
+  padding: 0px 50px;
+  padding-left: 50px;
+  text-align: left;
+  position: absolute;
+  z-index: 20;
+  top: 0px;
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+}
+
+.rooms-sections .left-card .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.check-rooms-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 181px;
+  height: 40px;
+  background: linear-gradient(180deg, #e1a63f 0%, #ecc98b 100%);
+  box-shadow: 0px 3px 5px rgba(254, 190, 30, 0.25);
+  border-radius: 50px;
+  transition: 0.3s;
+  border: 1px solid transparent;
+}
+
+.check-rooms-btn i,
+.check-news-btn i {
+  padding-left: 8px;
+}
+
+.check-rooms-btn:hover,
+.check-news-btn:hover {
+  transition: 0.5s;
+  background: transparent;
+  border: 1px solid #e1a63f;
+}
+
+.rooms-sections .left-card .left-content {
+  text-align: left;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 0px;
+  background-color: transparent;
+}
+
+.rooms-sections .left-card .left-content .deluxe-lux {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-top: 15px;
+}
+
+.rooms-sections .left-card .left-content .deluxe-para {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+}
+
+.rooms-sections .left-card .left-content .deluxe-bedroom {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+}
+
+.rooms-sections .left-card .left-content .deluxe-date {
+  font-weight: 500;
+  font-size: 16px;
+  color: #262729;
+}
+
+.rooms-sections .left-card .left-content .deluxe-dollars {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #c09b5a;
+}
+
+.rooms-sections .left-card .left-content .deluxe-icon-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #858585;
+}
+
+.rooms-sections .left-card .left-content .deluxe-icon-text .icon {
+  color: #c09b5a;
+  padding-top: 7px;
+  padding-left: 7px;
+}
+
+.rooms-sections #swipperrr {
+  width: 100%;
+  height: 95%;
+}
+
+.rooms-sections .container-fluid .right-card {
+  height: 100%;
+  position: relative;
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+}
+
+.container-fluid .right-card .card-box {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.rooms-sections .swiper-pagination {
+  position: relative;
+  top: -10px;
+  left: 0px;
+  text-align: left;
+}
+
+.rooms-sections .swiper-pagination-bullet-active {
+  background: #c09b5a;
+}
+.container-fluid .right-card .card-box .card-box .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.rooms-sections .right-card .card-box .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.rooms-sections .left-card .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.rooms-sections .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 85%;
+  object-fit: cover;
+}
+
+.rooms-sections .swiper-slide {
+  width: 80%;
+}
+
+.rooms-sections .swiper-slide h6 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #000000;
+  padding-top: 10px;
+}
+
+:root {
+  --swiper-navigation-size: 24px;
+}
+.rooms-sections .swiper-button-next,
+.rooms-sections .swiper-button-prev {
+  position: absolute;
+  top: var(--swiper-navigation-top-offset, 50%);
+  width: calc(var(--swiper-navigation-size) / 44 * 27);
+  height: var(--swiper-navigation-size);
+  margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #858585;
+}
+
+.swiper-button-next {
+  position: absolute;
+  right: 20px;
+}
+
+/* ====================== news-section ======================== */
+
+.news-sections {
+  min-height: 60vh;
+  width: 100vw;
+}
+
+.news-sections .container-fluid {
+}
+
+.news-sections .head {
+  width: 100%;
+  height: 25px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-sections .head p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.news-sections .container-fluid .left-card {
+  min-height: 400px;
+  position: relative;
+  background-color: transparent;
+}
+
+.news-sections .container-fluid .left-card .left-content {
+}
+
+.news-sections .left-card .news-header {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #c09b5a;
+}
+
+.news-sections .left-card {
+  width: 100%;
+  height: auto;
+  padding: 0px 50px;
+  padding-left: 50px;
+  text-align: left;
+  position: absolute;
+  z-index: 20;
+  top: 0px;
+  border: none;
+  border-radius: 0;
+}
+
+.news-sections .left-card .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.check-news-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 181px;
+  height: 40px;
+  background: linear-gradient(180deg, #e1a63f 0%, #ecc98b 100%);
+  box-shadow: 0px 3px 5px rgba(254, 190, 30, 0.25);
+  border-radius: 50px;
+  border: none;
+}
+
+.news-sections .left-card .left-content {
+  text-align: left;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  transition: 0.5s;
+  background-color: transparent;
+}
+
+.news-sections #swipperrr {
+  animation: sliderrs 1s ease-in-out 1;
+}
+
+.news-sections #swipperrr:nth-child(2n) {
+  animation: sliderrs 1s ease-in-out 1;
+}
+
+.rooms-sections #swipperrr {
+  animation: sliderrs 1s ease-in-out 1;
+}
+
+@keyframes sliderrs {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.news-sections .left-card .left-content .deluxe-lux {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #000000;
+  padding-top: 10px;
+}
+
+.news-sections .left-card .left-content .deluxe-para {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+  text-align: justify;
+  padding-top: 10px;
+}
+
+.news-sections .left-card .left-content .deluxe-bedroom {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+}
+
+.news-sections .left-card .left-content .deluxe-date {
+  font-weight: 500;
+  font-size: 16px;
+  color: #262729;
+}
+
+.news-sections .left-card .left-content .deluxe-dollars {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #c09b5a;
+}
+
+.news-sections .left-card .left-content .deluxe-icon-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #858585;
+}
+
+.news-sections .left-card .left-content .deluxe-icon-text .icon {
+  color: #c09b5a;
+  padding-top: 7px;
+  padding-left: 7px;
+}
+
+.news-sections #swipperrr {
+  width: 100%;
+  height: 95%;
+}
+
+.news-sections .container-fluid .right-card {
+  height: 100%;
+  position: relative;
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+}
+
+.news-sections .container-fluid .right-card .card {
+  border: 0;
+  border-radius: none;
+}
+
+.news-sections .container-fluid .right-card .card-date {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  color: #c09b5a;
+  margin-bottom: 3px;
+}
+
+.news-sections .container-fluid .right-card .card-img-top {
+  height: 200px;
+  width: 100%;
+  border-radius: 0;
+}
+
+.news-sections .container-fluid .right-card .card-title {
+  font-weight: 500;
+  font-size: 14px;
+  color: #c09b5a;
+}
+
+.news-sections .container-fluid .right-card .card-body {
+  padding: 0px;
+}
+
+.news-sections .container-fluid .right-card .gym {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-sections .container-fluid .right-card h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  color: #101828;
+}
+
+.news-sections .container-fluid .right-card .gym-des {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: justify;
+  line-height: 24px;
+  color: #667085;
+}
+
+.container-fluid .right-card .card-box {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.swiper-pagination {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  text-align: left;
+  left: 100px;
+  margin-bottom: 0px;
+  z-index: 20;
+}
+
+.news-sections .swiper-pagination-bullet-active {
+  background: #c09b5a;
+}
+.container-fluid .right-card .card-box .card-box .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.news-sections .right-card .card-box .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.news-sections .left-card .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.news-sections .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.news-sections .swiper-slide {
+  width: 80%;
+}
+
+:root {
+  --swiper-navigation-size: 24px;
+}
+.news-sections .swiper-button-next,
+.news-sections .swiper-button-prev {
+  position: absolute;
+  top: var(--swiper-navigation-top-offset, 50%);
+  width: calc(var(--swiper-navigation-size) / 44 * 27);
+  height: var(--swiper-navigation-size);
+  margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #858585;
+}
+
+.swiper-button-next {
+  position: absolute;
+  right: 10px;
+}
+
+@media screen and (max-width: 575px) {
+
+
+  .rooms-sections .left-card .left-content .deluxe-icon-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #858585;
+  }
+
+  .rooms-sections .swiper-slide {
+    width: 100%;
+    height: 100%;
+  }
+
+  .rooms-sections .left-card {
+    padding: 0px 10px;
+  }
+
+  .news-sections .left-card {
+    padding: 0px 20px;
+  }
+
+  .swiper-button-next {
+    position: absolute;
+    right: -25px;
+  }
+
+  .swiper-button-prev {
+    position: absolute;
+    left: -25px;
+  }
+
+  .rooms-sections {
+    margin-top: 100px;
+  }
+
+  .news-sections .next-button{
+    position: absolute;
+    right: -15px;
+  }
+  .news-sections .prev-button{
+    position: absolute;
+    left: -15px;
+  }
+
+  .rooms-sections .left-card .rooms-header {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #c09b5a;
+  }
+
+  .news-sections .left-card .news-header {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #c09b5a;
+  }
+
+  .rooms-sections .swiper-slide img{
+    width: ;
+  }
+  
+
+ 
+  
+}

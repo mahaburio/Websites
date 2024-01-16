@@ -1,0 +1,1171 @@
+:root {
+  --text-color: #000000;
+  --white-color: #ffffff;
+  --main-color: #c09b5a;
+  --sub-color: #ffe7ac;
+  --font-color: #667085;
+  --font-bg: 36px;
+  --font-md: 32px;
+  --font-sm: 24px;
+  --font-xs: 18px;
+  --font-xxs: 16px;
+  --font-us: 12px;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container-fluid {
+  padding: 0px;
+  transition: 0.3s;
+  overflow: hidden;
+  
+  
+}
+
+.navbar {
+  height: 100px;
+  padding-top: 15px;
+  background-color: var(--text-color);
+}
+
+.nav-link {
+  position: relative;
+}
+
+.nav-link:hover {
+  color: var(--main-color);
+}
+
+.navbar .nav-item .lang::after {
+  content: "";
+  background: transparent;
+}
+
+.nav-item .active-link::after {
+  content: "";
+  height: 2px;
+  width: 50%;
+  position: absolute;
+  top: 38px;
+  left: 0px;
+  transform: translateX(50%);
+  background: var(--sub-color);
+  border-radius: 5px;
+}
+
+#bookBtn {
+  width: 120px;
+  height: 50px;
+  font-weight: 500;
+  font-size: var(--font-xxs);
+  text-align: center;
+  color: var(--white-color);
+  border-radius: 40px;
+  position: relative;
+  top: -3px;
+  padding-bottom: 2px;
+  border: 2px solid var(--sub-color);
+  background-color: transparent;
+  transition: 0.3s;
+}
+
+#bookBtn:hover {
+  background-color: var(--main-color);
+  border: 2px solid var(--main-color);
+  transition: 0.3s;
+}
+
+/* ============ MAP-SECTION-ALL-USESE-PLACES ============== */
+
+.map-section .map-subcard h1 {
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: -0.1px;
+  color: #272d37;
+}
+
+.map-section .map-subcard p {
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.1px;
+  color: #c09b5a;
+}
+
+/* ========  get-touch-section ================= */
+
+.get-touch-section{
+   background-image: url("../assests/Rectangle 3699 (1).svg");;
+}
+
+.get-touch-section .touch-card {
+  padding: 0;
+  border-radius: 0;
+  border: 0;
+  background: transparent;
+}
+
+.get-touch-section .touch-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.get-touch-section .touch-card .content {
+  text-align: center;
+}
+
+.get-touch-section .touch-card .content .get-touch {
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #272d37;
+}
+
+.get-touch-section .touch-card .content .get-des {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: -0.1px;
+  color: #5f6d7e;
+}
+
+.get-touch-section .touch-card .content .contact-us-btn {
+  width: 133px;
+  height: 40px;
+  background: linear-gradient(180deg, #e1a63f 0%, #ecc98b 100%);
+  box-shadow: 0px 3px 5px rgba(254, 190, 30, 0.25);
+  border-radius: 50px;
+  border: transparent;
+  margin-top: 52px;
+  border: 1px solid transparent;
+}
+
+.get-touch-section .touch-card .content .contact-us-btn:hover{
+  transition: 0.5s;
+  background: transparent;
+  border: 1px solid #e1a63f;
+}
+
+/*================== FOOTER-SECTION ==================*/
+
+.footer {
+  width: 100%;
+  min-height: 336px;
+  background: url("../assests/footer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 60px;
+  position: relative;
+  margin-top: 10px;
+  overflow: hidden;
+
+  
+}
+
+.footer-ul {
+  list-style: none;
+  text-align: center;
+}
+
+.footer-list {
+  display: inline-flex;
+  margin: 0px 20px;
+  margin-top: 10px;
+  padding: 5px 8px;
+  text-align: center;
+  
+}
+
+.footer-ul .footer-list a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  letter-spacing: -0.1px;
+  font-family: sans-serif;
+}
+
+.follow-side {
+  position: relative;
+  top: -30px;
+  text-align: left;
+  padding-left: 100px;
+}
+
+.footer-follow a {
+  text-decoration: none;
+  color: var(--white-color);
+  font-size: 12px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.footer-ul .footer-list a:hover {
+  color: var(--main-color);
+}
+
+.font-icon {
+  font-size: 20px;
+  margin-right: 15px;
+  color: var(--white-color);
+  transition: 0.3s;
+}
+
+.font-icon:hover {
+  color: var(--main-color);
+  transition: 0.3s;
+}
+
+.subscribe {
+  font-size: 16px;
+  color: var(--white-color);
+  height: 60px;
+  width: 180px;
+  background-color: transparent;
+  border: 1px solid var(--white-color);
+  border-radius: 40px;
+  margin-top: 40px;
+  margin-left: 100px;
+  letter-spacing: 1px;
+}
+
+.subscribe i {
+  padding-right: 8px;
+  font-size: 18px;
+}
+
+.personal-details {
+  color: #5f6d7e;
+  font-size: 12px;
+  position: relative;
+  top: 50px;
+  width: 500px;
+  padding-left: 8px;
+}
+
+.personal-details a {
+  text-decoration: none;
+  color: #5f6d7e;
+  display: block;
+  margin-top: 5px;
+}
+
+.footer-end {
+  margin-top: 60px;
+  border-top: 2px solid #fff5;
+}
+
+.copyright-txt {
+  font-size: 12px;
+  text-align: center;
+  line-height: 45px;
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: -0.1px;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+/* ============RESPONSIVE MAXIMUM==================== */
+
+@media screen and (max-width: 1200px) {
+  .nav-item {
+    padding: 0px 10px;
+  }
+
+  .nav-link {
+    color: var(--white-color);
+    font-size: var(--font-xxs);
+  }
+
+  /* =========  footer-seciton ============= */
+
+  .footer-ul {
+    list-style: none;
+  }
+
+  .footer-list {
+    display: block;
+    text-align: left;
+    padding-left: 250px;
+  }
+
+  .follow-side {
+    position: relative;
+    top: -10px;
+    text-align: left;
+    padding-left: 50px;
+  }
+
+  .footer-follow a {
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 12px;
+    text-transform: uppercase;
+    position: relative;
+  }
+
+  .footer-ul .footer-list a:hover {
+    color: var(--main-color);
+  }
+
+  .subscribe {
+    margin-left: 50px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .logo-one {
+    display: none;
+  }
+
+  #right-slide {
+    width: 100vw;
+    background-color: #000000aa;
+  }
+
+  /* ========== navbr =========== */
+
+  .navbar-nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-item {
+    padding: 0px 25px;
+    display: inline-block;
+    margin-top: 20px;
+    padding-left: 45%;
+  }
+
+  .nav-link {
+    color: var(--white-color);
+    font-size: var(--font-xs);
+    font-weight: 700;
+    text-align: center;
+    width: 120px;
+  }
+
+  .nav-link:hover {
+    color: var(--main-color);
+  }
+
+  .nav-link:hover::after {
+    background: var(--sub-color);
+  }
+
+  #close-btn {
+    border-radius: none;
+  }
+
+  .btn-close {
+    font-size: var(--font-sm);
+    position: absolute;
+    left: 20px;
+    top: 60px;
+    height: 30px;
+    width: 100px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+    display: flex;
+    color: var(--white-color);
+    opacity: 0.8;
+    font-weight: bold;
+  }
+
+  .btn-close i {
+    position: relative;
+    top: -5px;
+    color: #fff;
+    left: 5px;
+    font-size: var(--font-md);
+  }
+
+  .btn-close:focus {
+    box-shadow: none;
+  }
+
+  .btn-close:hover {
+    color: #fff;
+    opacity: 1;
+  }
+
+  .navbar-toggler {
+    border: none;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .book-now-btn {
+    width: 90px;
+    height: 40px;
+    font-weight: 500;
+    font-size: var(--font-us);
+    text-align: center;
+    color: var(--white-color);
+    border-radius: 40px;
+    position: relative;
+    top: 0px;
+    padding-top: -2px;
+    margin-right: 10px;
+    border: 2px solid var(--sub-color);
+    background-color: transparent;
+    transition: 0.3s;
+  }
+
+  #hideBtn:hover {
+    transition: 0.3s;
+    background-color: var(--sub-color);
+    box-shadow: 0px 0px 2px var(--sub-color);
+  }
+
+  /* =========== CAROUSEL ============= */
+
+  .carousel-item img {
+    height: 100vh;
+    width: 100%;
+  }
+
+  .carousel-caption {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    left: 0px;
+    top: 25%;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    align-items: left;
+  }
+  .carousel-caption .container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+
+  .carousel-caption .content-box {
+    width: 700px;
+    height: 250px;
+    position: relative;
+    left: 0;
+    padding-left: 10px;
+  }
+
+  .carousel-caption .content-box .banner-text {
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  .carousel-caption .content-box .banner-subtext {
+    font-size: var(--font-xs);
+    text-align: left;
+    padding-top: 10px;
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    top: 83%;
+  }
+
+  /* =============== MAP-SECTION =================== */
+
+  .map-section {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .map-card {
+    height: 606px;
+    width: 100vw;
+    border: 0;
+    padding: 20px;
+    position: relative;
+    background: url("../assests/Map.svg");
+    background-size: 350%, 100%;
+    background-position: -850px;
+    background-repeat: no-repeat;
+    border-radius: 0;
+  }
+
+  .map-card img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .map-section .map-subcard {
+    position: absolute;
+    bottom: 105px;
+    left: calc((50% - 31%));
+    width: 433px;
+    height: 143px;
+    padding: 16px 20px;
+    background: #ffffff;
+    border: 1px solid #eaebf0;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+    border-radius: 10px;
+  }
+
+  /* ============ footer-section================= */
+
+  .first-foot {
+    padding-left: 50px;
+  }
+
+  .footer-list {
+    display: block;
+    text-align: left;
+    margin-top: 0px;
+
+    padding-left: 0px;
+  }
+
+  .footer-unorder {
+    margin-top: 80px;
+  }
+
+  .third-foot {
+    margin-top: 80px;
+  }
+
+  .navbar .nav-link:hover::after {
+    background-color: transparent;
+  }
+
+  .navbar .nav-item .active-home::after {
+    background-color: transparent;
+  }
+}
+
+/* ============= 768PX START ================= */
+
+@media screen and (max-width: 767px) {
+  .book-now-btn {
+    position: relative;
+    right: -85px;
+  }
+
+  .nav-item {
+    padding: 0px 25px;
+    display: inline-block;
+    margin-top: 20px;
+    padding-left: 40%;
+  }
+
+  .nav-link {
+    color: var(--white-color);
+    font-size: var(--font-xs);
+    font-weight: 700;
+    text-align: center;
+    width: 120px;
+  }
+
+  .carousel-caption {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    left: 0px;
+    top: 0%;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    align-items: left;
+  }
+  .carousel-caption .container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+
+  .carousel-caption .content-box {
+    width: 700px;
+    height: 250px;
+    position: relative;
+    left: 0;
+    padding-left: 10px;
+  }
+
+  /* ========= MAP-SECITON ================= */
+
+  .map-card {
+    background-size: 450%, 50%;
+    background-position: -900px;
+    border-radius: 0;
+  }
+
+  .map-section .map-subcard {
+    position: absolute;
+    bottom: 105px;
+    left: calc((50% - 40%));
+    width: 433px;
+    height: 143px;
+  }
+
+  /* =========== get-touch-section ================== */
+
+  .get-touch-section .touch-card .content .get-touch {
+    font-size: 24px;
+  }
+
+  .get-touch-section .touch-card .content .get-des {
+    font-size: 12px;
+  }
+
+  .get-touch-section .touch-card .content .contact-us-btn {
+    width: 105px;
+    height: 30px;
+    margin-top: 25px;
+    font-size: 12px;
+  }
+
+  /* ============== footer-section ============== */
+
+  .footer-unorder {
+    margin-top: 90px;
+  }
+
+  .third-foot {
+    margin-top: 90px;
+  }
+
+  .personal-details {
+    width: 240px;
+    top: 20px;
+    left: 0px;
+    padding-left: 10px;
+  }
+}
+
+/* ============RESPONSIVE MAXIMUM MOBILE-DEVICES==================== */
+
+@media screen and (max-width: 575px) {
+  .book-now-btn {
+    position: relative;
+    right: -85px;
+  }
+
+  .carousel-item #carousel-img-one {
+    display: none;
+  }
+  .carousel-item #carousel-img-two {
+    display: none;
+  }
+
+  .carousel-item #carousel-img-three {
+    display: none;
+  }
+
+  .carousel-item #carousel-img-four {
+    display: none;
+  }
+  .carousel-item #carousel-img-five {
+    display: none;
+  }
+
+  /* ============Map-section======== */
+
+  .map-card {
+    background-size: 450%, 50%;
+    background-position: -850px;
+    border-radius: 0;
+  }
+
+  .map-section .map-subcard {
+    position: absolute;
+    bottom: 105px;
+    left: calc((50% - 35%));
+    width: 360px;
+    height: 163px;
+  }
+
+  .carousel-item img {
+    height: 100vh;
+    width: 100%;
+  }
+
+  .carousel-caption {
+    top: -15%;
+  }
+
+  .carousel-caption .content-box .banner-subtext {
+    font-size: 14px;
+  }
+
+  .carousel-caption .content-box {
+    width: 700px;
+    height: 250px;
+    position: relative;
+    left: 0;
+    padding: 30px;
+  }
+
+  /* =========== get-touch section =========== */
+  .get-touch-section .touch-card .content {
+    padding: 20px;
+  }
+
+  /* ================= footer-seciton ===================== */
+
+  .footer-logo {
+    width: 50%;
+  }
+
+  .follow-side {
+    padding-left: 10px;
+  }
+
+  .subscribe {
+    margin-left: 5px;
+  }
+
+  .footer-unorder {
+    margin-top: 100px;
+    width: 50%;
+  }
+
+  .footer-ul .footer-list a {
+    font-size: 14px;
+  }
+
+  .third-foot {
+    margin-top: 110px;
+    width: 50%;
+    padding-right: 30px;
+    /* padding: 70px; */
+  }
+
+  .personal-details {
+    width: 240px;
+    top: 20px;
+    left: 0px;
+    padding-left: 10px;
+  }
+
+  .font-icon {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+
+  .subscribe {
+    font-size: 16px;
+    height: 50px;
+    width: 150px;
+    margin-top: 35px;
+    margin-left: 0px;
+    padding-bottom: 0px;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 515px), (max-width: 480px) {
+  .book-now-btn {
+    position: relative;
+    right: -65px;
+  }
+
+  .map-card {
+    background-size: 590%, 50%;
+    background-position: -1050px;
+    border-radius: 0;
+  }
+
+  .map-section .map-subcard {
+    position: absolute;
+    bottom: 105px;
+    left: calc((50% - 40%));
+    width: 360px;
+    height: 163px;
+  }
+
+  .carousel-caption .content-box .banner-subtext {
+    font-size: 14px;
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width: 415px), (max-width: 430px) {
+  .book-now-btn {
+    position: relative;
+    right: -25px;
+  }
+  .container {
+    padding: 0px;
+  }
+
+  .nav-item {
+    padding-left: 35%;
+  }
+
+  .map-card {
+    border-radius: 0;
+    background-size: 630%, 50%;
+    background-position: -980px;
+  }
+
+  .map-section .map-subcard {
+    position: absolute;
+    bottom: 105px;
+    left: calc((50% - 43%));
+    width: 340px;
+    height: 163px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .book-now-btn {
+    position: relative;
+    right: -20px;
+  }
+  .container {
+    padding: 0px;
+  }
+
+  .map-section .map-subcard {
+    left: calc((50% - 45%));
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .container {
+    padding: 0px;
+  }
+
+  .map-card {
+    border-radius: 0;
+    background-size: 630%, 50%;
+    background-position: -900px;
+  }
+
+  .map-section .map-subcard {
+    position: absolute;
+    bottom: 105px;
+    left: calc((50% - 47%));
+    width: 340px;
+    height: 163px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 355px) {
+}
+
+@media screen and (max-width: 300px) {
+  .book-now-btn {
+    display: none;
+  }
+
+  .container {
+    padding: 0px;
+  }
+
+  .map-section .map-subcard {
+    position: absolute;
+    bottom: 105px;
+    left: calc((50% - 48%));
+    width: 300px;
+    height: 183px;
+    font-size: 12px;
+  }
+}
+
+/* ============RESPONSIVE MINIMUM==================== */
+
+@media screen and (min-width: 576px) {
+  .carousel-item #carousel-img-one {
+    display: block;
+  }
+
+  .carousel-item #hide-caro-img1 {
+    display: none;
+  }
+
+  .carousel-item #carousel-img-two {
+    display: block;
+  }
+
+  .carousel-item #hide-caro-img2 {
+    display: none;
+  }
+
+  .carousel-item #carousel-img-three {
+    display: block;
+  }
+
+  .carousel-item #hide-caro-img3 {
+    display: none;
+  }
+
+  .carousel-item #carousel-img-four {
+    display: block;
+  }
+
+  .carousel-item #hide-caro-img4 {
+    display: none;
+  }
+  .carousel-item #carousel-img-five {
+    display: block;
+  }
+
+  .carousel-item #hide-caro-img5 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .book-now-btn {
+    position: relative;
+    right: -160px;
+  }
+}
+
+/* ==========min-width 992px 🔴🟠🟡🟢🔵================= */
+
+@media screen and (min-width: 992px) {
+  /* navbar-section */
+
+  .logo-one {
+    display: block;
+  }
+  .logo-two {
+    display: none;
+  }
+
+  .book-now-btn {
+    display: none;
+  }
+
+  /*===== banner-seciton ========*/
+
+  .carousel-item img {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .carousel-caption {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    left: 0px;
+    top: 25%;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    align-items: left;
+  }
+  .carousel-caption .container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+
+  .carousel-caption .content-box {
+    width: 700px;
+    height: 250px;
+    position: relative;
+    left: 0;
+    padding-left: 40px;
+  }
+
+  .carousel-caption .content-box .banner-text {
+    font-weight: 500;
+    font-size: 48px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  .carousel-caption .content-box .banner-subtext {
+    font-size: 20px;
+    padding-top: 10px;
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    position: absolute;
+    width: 7%;
+  }
+
+  /* ============MAP-SECTION 🔴🟠🟡🟢🔵================== */
+  .map-section {
+    position: relative;
+  }
+
+  .map-card {
+    height: 364px;
+    width: 100%;
+    padding: 0px;
+    border: 0;
+    background: url("../assests/Map.svg");
+    background-position: -80px;
+    background-repeat: no-repeat;
+  }
+
+  .map-card img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .map-section .map-subcard {
+    position: absolute;
+    left: calc(50% - 28%);
+    bottom: 35px;
+    width: 433px;
+    height: 143px;
+    padding: 16px 20px;
+    background: #ffffff;
+    border: 1px solid #eaebf0;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+    border-radius: 10px;
+  }
+}
+
+/* ==========min-width 1200 🔴🟠🟡🟢🔵================= */
+
+@media screen and (min-width: 1200px) {
+  .nav-item {
+    padding: 0px 15px;
+  }
+
+  .nav-link {
+    color: var(--white-color);
+    font-size: var(--font-xxs);
+    position: relative;
+  }
+
+  .nav-link:hover {
+    color: var(--main-color);
+  }
+
+  .nav-link:hover::after {
+    content: "";
+    height: 2px;
+    width: 50%;
+    position: absolute;
+    top: 38px;
+    left: 0px;
+    transform: translateX(50%);
+    background: var(--sub-color);
+    border-radius: 5px;
+  }
+
+  .nav-link:focus::after{
+    content: "";
+    height: 2px;
+    width: 50%;
+    position: absolute;
+    top: 38px;
+    left: 0px;
+    transform: translateX(50%);
+    background: var(--sub-color);
+    border-radius: 5px;
+  }
+
+.active-link {
+    font-weight: 600;
+    position: relative;
+    color: #e1a63f;
+  }
+
+.nav-link:focus{
+  color: #e1a63f;
+}
+
+.home-link{
+  color: #fff;
+}
+
+.active-link::after {
+    content: "";
+    height: 2px;
+    width: 50%;
+    position: absolute;
+    top: 38px;
+    left: 0px;
+    transform: translateX(50%);
+    background: var(--sub-color);
+    border-radius: 5px;
+  }
+
+  .navbar .nav-item .lang::after {
+    content: "";
+    background: transparent;
+  }
+
+  /* ============MAP-SECTION 🔴🟠🟡🟢🔵================== */
+  .map-section {
+    position: relative;
+    
+  }
+
+  .map-card {
+    height: 364px;
+    width: 100%;
+    padding: 0px;
+    border: 0;
+    border-radius: 0;
+    background: url("../assests/Map.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .map-card img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .map-section .map-subcard {
+    position: absolute;
+    left: calc(50% - 28%);
+    bottom: 35px;
+    width: 433px;
+    height: 143px;
+    padding: 16px 20px;
+    background: #ffffff;
+    border: 1px solid #eaebf0;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+    border-radius: 10px;
+  }
+
+  .footer-list {
+    display: inline-flex;
+    margin: 0px 10px;
+    margin-top: 10px;
+    padding: 5px 8px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .footer-list {
+    margin: 0px 20px;
+  }
+}

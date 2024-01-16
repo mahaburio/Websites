@@ -1,0 +1,986 @@
+:root {
+  --text-color: #000000;
+  --white-color: #ffffff;
+  --main-color: #c09b5a;
+  --sub-color: #ffe7ac;
+  --font-color: #667085;
+  --font-bg: 36px;
+  --font-md: 32px;
+  --font-sm: 24px;
+  --font-xs: 18px;
+  --font-xxs: 16px;
+  --font-us: 12px;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container-fluid {
+  padding: 0px;
+  transition: 0.3s;
+  overflow: hidden;
+}
+
+.footer .container {
+  padding-top: 50px;
+}
+
+#whats-new .container-fluid {
+  padding: 0px 50px;
+}
+
+#whats-new .head-sec {
+  display: flex;
+  justify-content: space-between;
+}
+
+#Map-section .head-sec {
+  height: 25px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  margin-bottom: 30px;
+}
+
+#Map-section .head-sec {
+  display: flex;
+  justify-content: space-between;
+}
+
+#Map-section .head-container {
+  padding: 0px 50px;
+}
+
+#whats-new .head-sec {
+  height: 25px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  margin-bottom: 30px;
+}
+
+#whats-new .carousel-inner .card {
+  position: relative;
+  width: auto;
+  border-radius: none;
+  border: 0;
+}
+
+#whats-new .card {
+  border: 0;
+  border-radius: 0px;
+}
+
+#whats-new .card .icon {
+  color: var(--main-color);
+  padding-left: 2px;
+}
+
+#whats-new .carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top: 0px;
+  z-index: 2;
+  display: flex;
+  justify-content: left;
+  padding: 0;
+  margin-right: 15%;
+  margin-bottom: 3rem;
+  margin-left: 0%;
+  list-style: none;
+  height: 30px;
+}
+
+#whats-new .carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#whats-new #rooms-section .card {
+  min-height: auto;
+}
+
+#whats-new .carousel-para {
+  font-size: 16px;
+}
+
+#whats-new .carousel-gym {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#whats-new .carousel-indicators .active {
+  opacity: 1;
+  background-color: #c09b5a;
+}
+
+#whats-new .whats-new-head {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+#whats-new .carousel-head {
+  font-weight: 500;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+
+#whats-new .carousel-control-next,
+#whats-new .carousel-control-prev {
+  position: absolute;
+  width: 10%;
+  top: 25%;
+}
+
+#whats-new .carousel-control-next {
+  position: absolute;
+  right: -35px;
+  z-index: 999999;
+  color: #000000;
+}
+
+#whats-new .carousel-control-prev {
+  position: absolute;
+  left: -40px;
+  z-index: 999999;
+}
+
+/* rooms-section */
+
+#whats-new #rooms-section .carousel-control-next {
+  position: absolute;
+  right: -40px;
+  z-index: 999999;
+  color: #000000;
+}
+
+#whats-new #rooms-section .carousel-control-prev {
+  position: absolute;
+  left: -40px;
+  z-index: 999999;
+}
+
+#whats-new .container-fluid .date {
+  font-size: var(--font-us);
+  color: var(--main-color);
+}
+
+#whats-new .card .card-img-top {
+  height: 190px;
+  border-radius: 0px;
+}
+
+#whats-new #rooms-section .card .card-img-top {
+  height: 463px;
+}
+
+#whats-new .card .card-body {
+  padding: 0px;
+}
+
+#whats-new .card .card-body .design {
+  color: var(--main-color);
+  font-size: var(--font-us);
+  padding: 0px;
+  font-weight: 500;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+#whats-new #rooms-section .card .card-body .design-02 {
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+#whats-new .card .card-body .gym-area {
+  color: var(--text-color);
+  font-size: var(--font-sm);
+  font-weight: 700;
+}
+
+#whats-new .card .card-body .descript {
+  color: var(--font-color);
+  font-size: var(--font-us);
+  text-align: left;
+  font-weight: 400;
+}
+
+#whats-new .col-lg-3 {
+  padding: 20px;
+}
+
+#whats-new .check-news-btn {
+  border: transparent;
+  width: 172px;
+  height: 40px;
+  background: linear-gradient(180deg, #e1a63f 0%, #ecc98b 100%);
+  box-shadow: 0px 3px 5px rgba(254, 190, 30, 0.25);
+  border-radius: 50px;
+}
+
+#whats-new .first-carousel {
+  min-height: 400px;
+}
+
+#whats-new #rooms-section .first-carousel {
+  min-height: 550px;
+}
+
+#whats-new #rooms-section .first-carousel {
+  padding: 0px 30px;
+  padding-left: 0px;
+}
+
+#rooms-section .carousel-inner .card .dollars {
+  color: #c09b5a;
+  font-size: 20px;
+}
+
+/* -=============Amenities-SECTION================ */
+
+#amenities-section .explore-more-btn {
+  border: transparent;
+  width: 157px;
+  height: 40px;
+  background: linear-gradient(180deg, #e1a63f 0%, #ecc98b 100%);
+  box-shadow: 0px 3px 5px rgba(254, 190, 30, 0.25);
+  border-radius: 50px;
+  border: 1px solid transparent;
+}
+
+#amenities-section .explore-more-btn:hover {
+  transition: 0.5s;
+  background: transparent;
+  border: 1px solid #e1a63f;
+}
+
+/* ================ RESPONSIVE-MAX-WIDTH ====================== */
+@media screen and (max-width: 1399px) {
+}
+
+@media screen and (max-width: 1199px) {
+}
+
+@media screen and (max-width: 991px) {
+  #whats-new #rooms-section .container-fluid {
+    padding: 10px;
+  }
+  #whats-new #rooms-section .card .card-img-top {
+    height: 100%;
+  }
+
+  #whats-new #rooms-section .card {
+    padding-left: 5px;
+  }
+
+  #whats-new #rooms-section .first-carousel {
+    padding: 0px 60px;
+  }
+
+  #whats-new #rooms-section .carousel-control-next {
+    right: -60px;
+  }
+
+  #whats-new #rooms-section .carousel-control-prev {
+    left: -60px;
+  }
+
+  /* =========== ABOUT-US-SECITON =========== */
+
+  #whats-new #about-us .container-fluid {
+    padding: 0px;
+  }
+
+  #whats-new #about-us .about-card .about-hide-box {
+    width: 436px;
+    height: 30px;
+    position: absolute;
+    left: 200px;
+    top: 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+  #whats-new #about-us .about-section {
+    position: relative;
+    overflow: hidden;
+  }
+
+  #whats-new #about-us .about-card {
+    height: 800px;
+    width: 100vw;
+    border: 0;
+    position: relative;
+    background: url("../assests/atelier-brunette-GfmmSQGf2jw-unsplash 2.png");
+    background-size: cover;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .about-card img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .about-section .about-subcard {
+    position: absolute;
+    bottom: 135px;
+    left: calc((50% - 45%));
+    width: 650px;
+    height: 550px;
+    padding-left: 70px;
+    padding-top: 50px;
+    background: #ffffff;
+    opacity: 0.9;
+    border: 1px solid #eaebf0;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+    border-radius: 10px;
+  }
+
+  .about-section .about-subcard .details-head {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .about-section .about-subcard .semi-card {
+    width: 515px;
+    height: 283px;
+    font-weight: 300;
+    font-size: 16px;
+    color: #000000;
+  }
+
+  .about-section .about-subcard h1 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 47px;
+    color: #000000;
+  }
+
+  .about-section .about-subcard .semi-card .description {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 200%;
+    color: #000000;
+  }
+
+  .about-section .about-subcard .semi-card .explore-more-btn {
+    border: transparent;
+    width: 157px;
+    height: 40px;
+    background: linear-gradient(180deg, #e1a63f 0%, #ecc98b 100%);
+    box-shadow: 0px 3px 5px rgba(254, 190, 30, 0.25);
+    border-radius: 50px;
+    border: 1px solid transparent;
+  }
+
+  .about-section .about-subcard .semi-card .explore-more-btn:hover {
+    transition: 0.5s;
+    background: transparent;
+    border: 1px solid #e1a63f;
+  }
+
+  #amenities-section .head-sec{
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #whats-new .carousel-control-next {
+    position: absolute;
+    right: -45px;
+    z-index: 999999;
+    color: #000000;
+  }
+
+  #whats-new .carousel-control-prev {
+    position: absolute;
+    left: -45px;
+    z-index: 999999;
+  }
+
+  #whats-new #rooms-section .carousel-control-next {
+    right: -45px;
+  }
+
+  #whats-new #rooms-section .carousel-control-prev {
+    left: -45px;
+  }
+
+  #amenities-section .img-part {
+    height: 450px;
+    width: 450px;
+    position: relative;
+  }
+
+  #amenities-section .img-part .under-shadow {
+    height: 400px;
+    width: 400px;
+    border: 2px solid #e5e5e5;
+    position: absolute;
+    top: 35px;
+    left: 35px;
+  }
+
+  #amenities-section .img-part .img-sec {
+    height: 400px;
+    width: 400px;
+    position: absolute;
+  }
+
+  #amenities-section .img-part .img-sec img {
+    height: 100%;
+    width: 100%;
+  }
+
+  #amenities-section .right-section .underline {
+    color: var(--main-color);
+    font-weight: 700;
+    text-shadow: 0px 0px 2px var(--main-color);
+  }
+
+  .about-section .about-subcard {
+    position: absolute;
+    bottom: 135px;
+    left: calc((50% - 45%));
+    width: 500px;
+    height: 550px;
+    padding-left: 20px;
+    padding-top: 50px;
+    background: #ffffff;
+    opacity: 0.9;
+    border: 1px solid #eaebf0;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+    border-radius: 10px;
+  }
+
+  #whats-new #about-us .about-card .about-hide-box {
+    width: 356px;
+    height: 30px;
+    position: absolute;
+    left: 100px;
+    top: 60px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+  .about-section .about-subcard .semi-card {
+    width: 435px;
+    height: 283px;
+    font-weight: 300;
+    font-size: 16px;
+    color: #000000;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .carousel-caption .content-box .banner-text {
+    padding-right: 40px;
+    font-size: 32px;
+  }
+
+  #whats-new .carousel-control-next {
+    position: absolute;
+    right: -45px;
+    z-index: 999999;
+    color: #000000;
+  }
+
+  #whats-new .carousel-control-prev {
+    position: absolute;
+    left: -50px;
+    z-index: 999999;
+  }
+
+  #whats-new .check-news-btn {
+    margin-bottom: 70px;
+  }
+
+  #amenities-section .container {
+    padding: 50px;
+    padding-top: 0px;
+  }
+
+  #amenities-section .img-part {
+    height: 400px;
+    width: 400px;
+    position: relative;
+  }
+
+  #amenities-section .img-part .under-shadow {
+    height: 350px;
+    width: 350px;
+    border: 2px solid #e5e5e5;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+  }
+
+  #amenities-section .img-part .img-sec {
+    height: 350px;
+    width: 350px;
+    position: absolute;
+  }
+
+  #amenities-section .img-part .img-sec img {
+    height: 100%;
+    width: 100%;
+  }
+
+  #whats-new #about-us .container-fluid {
+    padding: 0px;
+  }
+
+  #whats-new .carousel-para {
+    font-size: 14px;
+    text-align: justify;
+  }
+
+  /* ============ about-us-section =========== */
+
+  #whats-new #about-us .about-card .about-hide-box {
+    max-width: 50%;
+    height: 30px;
+    position: absolute;
+    left: calc(50% -50%);
+    top: 70px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+  .about-section .about-subcard {
+    position: absolute;
+    bottom: 20%;
+    left: 0px;
+    width: 80%;
+    height: auto;
+    padding: 40px 20px;
+    margin: 50px;
+  }
+
+  .about-section .about-subcard .details-head {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .about-section .about-subcard .semi-card {
+    width: auto;
+    height: auto;
+    font-weight: 300;
+    font-size: 12px;
+    color: #000000;
+    margin-bottom: 0px;
+  }
+
+  .about-section .about-subcard h1 {
+    width: 80%;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .about-section .about-subcard .semi-card .description {
+    font-size: 14px;
+    text-align: justify;
+  }
+
+  .about-section .about-subcard .semi-card .explore-more-btn {
+    display: none;
+  }
+
+  /* ============= hide -amenities-seciton============ */
+
+  .hide-amenities-section h1 {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .hide-amenities-section p {
+    text-align: justify;
+  }
+
+  /* ============ get-touch-section ============= */
+}
+
+@media screen and (max-width: 500px) {
+  #whats-new #rooms-section .card .icon-text {
+    font-size: 10px;
+  }
+
+  .about-section .about-subcard {
+    position: absolute;
+    bottom: 20%;
+    left: 0px;
+    width: 80%;
+    height: auto;
+    padding: 40px 20px;
+    margin: 30px;
+  }
+
+
+  
+}
+
+@media screen and (max-width: 479px) {
+
+  #amenities-section .container {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  #amenities-section .img-part {
+    height: 300px;
+    width: 300px;
+    position: relative;
+  }
+
+  #amenities-section .img-part .under-shadow {
+    height: 250px;
+    width: 250px;
+    border: 2px solid #e5e5e5;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+  }
+
+  #amenities-section .img-part .img-sec {
+    height: 250px;
+    width: 250px;
+    position: absolute;
+  }
+
+  #amenities-section .img-part .img-sec img {
+    height: 100%;
+    width: 100%;
+  }
+  #amenities-section .container {
+    padding: 50px;
+    padding-top: 0px;
+  }
+
+}
+/* ================ RESPONSIVE-MIN-WIDTH ====================== */
+
+@media screen and (min-width: 480px) {
+}
+
+@media screen and (min-width: 576px) {
+  /*============ what-new-seciton==================== */
+
+  #whats-new {
+    min-height: 100vh;
+    width: 100vw;
+    background: url("../assests/Rectangle 3699 (1).svg");
+  }
+
+  #whats-new .container {
+  }
+
+  #whats-new .container .date {
+    font-size: var(--font-us);
+    color: var(--main-color);
+  }
+
+  #whats-new .card {
+    border: 0;
+    border-radius: 0px;
+  }
+
+  #whats-new .card .card-img-top {
+    height: 190px;
+    border-radius: 0px;
+  }
+
+  #whats-new .card .card-body {
+    padding: 0px;
+  }
+
+  #whats-new .card .card-body .design {
+    color: var(--main-color);
+    font-size: var(--font-us);
+    padding: 0px;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+
+  #whats-new .card .card-body .gym-area {
+    color: var(--text-color);
+    font-size: var(--font-sm);
+    font-weight: 600;
+  }
+
+  #whats-new .card .card-body .descript {
+    color: var(--font-color);
+    font-size: var(--font-us);
+    text-align: left;
+    font-weight: 400;
+  }
+
+  #amenities-section .right-section {
+    min-height: 240px;
+    width: 600px;
+    /* padding: 25px; */
+    margin-top: 50px;
+    padding-left: 50px;
+    margin-bottom: 50px;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* Amenities-SECTION */
+
+  #amenities-section {
+  }
+
+  #amenities-section .img-part {
+    height: 450px;
+    width: 450px;
+    position: relative;
+  }
+
+  #amenities-section .img-part .under-shadow {
+    height: 400px;
+    width: 400px;
+    border: 2px solid #e5e5e5;
+    position: absolute;
+    top: 35px;
+    left: 35px;
+  }
+
+  #amenities-section .img-part .img-sec {
+    height: 400px;
+    width: 400px;
+    position: absolute;
+  }
+
+  #amenities-section .img-part .img-sec img {
+    height: 100%;
+    width: 100%;
+  }
+
+  #amenities-section .right-section .underline {
+    color: var(--main-color);
+    font-weight: 700;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .navbar {
+    background-color: transparent;
+    position: absolute;
+    z-index: 10000;
+  }
+  header {
+    position: relative;
+  }
+
+  .navbar ul {
+    position: relative;
+    left: 0px;
+  }
+
+  .navbar-brand {
+    position: relative;
+    left: 10px;
+  }
+
+  .carousel-caption {
+    top: 35%;
+  }
+
+  /* =========== about-us-seciton ============== */
+
+  #whats-new #about-us {
+  }
+
+  #whats-new #about-us .container-fluid {
+    padding: 0px;
+  }
+
+  #whats-new #about-us .about-card .about-hide-box {
+    width: 386px;
+    height: 30px;
+    position: absolute;
+    left: 160px;
+    top: 70px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+  #whats-new #about-us .about-section {
+    position: relative;
+    overflow: hidden;
+  }
+
+  #whats-new #about-us .about-card {
+    height: 800px;
+    width: 100vw;
+    border: 0;
+    position: relative;
+    background: url("../assests/atelier-brunette-GfmmSQGf2jw-unsplash 2.png");
+    background-size: cover;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .about-card img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .about-section .about-subcard {
+    position: absolute;
+    bottom: 135px;
+    left: calc((50% - 40%));
+    width: 700px;
+    height: 500px;
+    padding-left: 120px;
+    padding-top: 50px;
+    background: #ffffff;
+    opacity: 0.9;
+    border: 1px solid #eaebf0;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+    border-radius: 10px;
+  }
+
+  .about-section .about-subcard .details-head {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .about-section .about-subcard .semi-card {
+    width: 535px;
+    height: 283px;
+    font-weight: 300;
+    font-size: 16px;
+    color: #000000;
+  }
+
+  .about-section .about-subcard h1 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 47px;
+
+    color: #000000;
+  }
+
+  .about-section .about-subcard .semi-card .description {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 200%;
+    color: #000000;
+  }
+
+  .about-section .about-subcard .semi-card .explore-more-btn {
+    border: transparent;
+    width: 157px;
+    height: 40px;
+    background: linear-gradient(180deg, #e1a63f 0%, #ecc98b 100%);
+    box-shadow: 0px 3px 5px rgba(254, 190, 30, 0.25);
+    border-radius: 50px;
+    border: 1px solid transparent;
+  }
+
+  .about-section .about-subcard .semi-card .explore-more-btn:hover{
+    transition: 0.5s;
+    background: transparent;
+    border: 1px solid #e1a63f;
+  }
+
+  .contact-hide-box {
+    width: 30%;
+    padding-left: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  }
+  .contact-hide-box {
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  .navbar ul {
+    position: relative;
+    left: 40px;
+  }
+
+  .navbar-brand {
+    position: relative;
+    left: 50px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .navbar ul {
+    position: relative;
+    left: 60px;
+  }
+
+  .navbar-brand {
+    position: relative;
+    left: 50px;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .navbar ul {
+    position: relative;
+    left: 90px;
+  }
+
+  .navbar-brand {
+    position: relative;
+    left: 80px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .navbar ul {
+    position: relative;
+    left: 250px;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navbar-brand {
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .navbar ul {
+    position: relative;
+    left: 350px;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navbar-brand {
+    position: relative;
+  }
+}

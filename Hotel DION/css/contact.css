@@ -1,0 +1,1401 @@
+:root {
+  --text-color: #000000;
+  --white-color: #ffffff;
+  --main-color: #c09b5a;
+  --sub-color: #ffe7ac;
+  --font-color: #667085;
+  --font-bg: 36px;
+  --font-md: 32px;
+  --font-sm: 24px;
+  --font-xs: 18px;
+  --font-xxs: 16px;
+  --font-us: 12px;
+  --form-bg: #fff4e6;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container-fluid {
+  padding: 0px;
+  transition: 0.3s;
+  overflow: hidden;
+}
+
+/* ======== contact-section   🟡🟡🟡🟡🟡🟡🟡🟡🟡🟡🟡🟡 */
+
+#full-contact {
+  min-height: 100vh;
+  width: 100vw;
+  background: url("../assests/Rectangle 3699 (1).svg");
+}
+
+#full-contact .card {
+  border: none;
+}
+
+.contact-seciton {
+  min-height: 100vh;
+  width: 100vw;
+  background: url("../assests/Rectangle 3699 (1).svg");
+}
+
+.contact-details {
+  width: 270px;
+}
+
+.contact-details a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: -0.1px;
+  color: #667085;
+  text-align: left;
+  text-align: center;
+}
+
+.icon-td {
+  text-align: center;
+  position: relative;
+  top: -8px;
+  padding-right: 10px;
+}
+
+.location-td {
+  position: relative;
+  top: -35px;
+}
+
+/* ============== carousel================== */
+
+/*=================   🟡🟡🟡🟡🟡🟡🟡🟡🟡🟡🟡🟡 */
+
+/*================= HOW TO GET-SECTION   🟡🟡🟡🟡🟡🟡🟡🟡🟡🟡🟡🟡 */
+
+.how-to-get-section {
+  padding: 25px;
+}
+.how-to-get-section .row .col-lg-12 {
+  padding: 0px 0px;
+}
+
+.how-to-get-section .header h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #c09b5a;
+}
+
+.how-to-get-section .travel-information .vehicle-head {
+  display: inline-block;
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 60px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.how-to-get-section .travel-information i {
+  font-size: 22px;
+  padding-right: 13px;
+}
+
+.how-to-get-section .travel-information p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  text-transform: capitalize;
+  text-align: justify;
+  color: #667085;
+}
+
+.map-section{
+  border: 2px solid #c09b5a;
+  overflow: hidden;
+  padding: 0;
+}
+
+/* =================== contact-us-section ========================= */
+
+.contact-seciton .col-lg-6 {
+  padding: 0;
+}
+
+/* ============= review-seciton ================ */
+
+.reviews-btn {
+  gap: 5px;
+  width: 161px;
+  height: 40px;
+  background: #fff4e6;
+  border: 1px solid #bfa055;
+  box-shadow: 0px 3px 5px rgba(254, 190, 30, 0.15);
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+.reviews-btn i {
+  padding-left: 2px;
+}
+
+.reviews-btn:hover {
+  background-color: var(--main-color);
+  transition: 0.3s;
+}
+
+.reviews-section .review-count .rvw-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #dadada;
+}
+
+.reviews-section .revied-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+}
+
+.reviews-section .revied-box h1 {
+  font-weight: 500;
+  font-size: 50px;
+  color: #112211;
+}
+
+.reviews-section .revied-box .box h2 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #112211;
+}
+
+.reviews-section .revied-box .box p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #112211;
+}
+
+.reviews-section .review-count .count-start h1 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #112211;
+}
+
+.first-comment {
+  border-bottom: 2px solid #dadada;
+}
+
+.first-comment .reviwer-details {
+  display: flex;
+  padding-left: 0px;
+  padding-bottom: 0px;
+}
+
+.first-comment .reviwer-details .star {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #112211;
+}
+
+.first-comment .reviwer-details .name {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #112211;
+}
+.first-comment .reviwer-details .devider {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.first-comment .reviwer-details .comment {
+  font-weight: 400;
+  font-size: 14px;
+  color: #112211;
+}
+
+/* ================= form-inpur- ==================== */
+.form-section {
+  border: none;
+}
+
+.contact-hide-box {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide-contact-us {
+  font-weight: 500;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #000000;
+  padding-right: 100px;
+  position: relative;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.hide-contact-us::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  left: 50px;
+  top: 30px;
+}
+
+.footer .container {
+  padding-top: 50px;
+}
+
+/* ============RESPONSIVE MAXIMUM==================== */
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 991px) {
+  /* ============ HEADER-TEXT-STYLE ================ */
+
+  .header-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #000000;
+    position: relative;
+    display: inline-block;
+  }
+
+  .header-title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 35px;
+    height: 2px;
+    width: 100%;
+    background-color: #c09b5a;
+  }
+
+  /* ============== reviews-seciton ============= */
+
+  .reviews-section .review-count .img-head {
+    padding-bottom: 15px;
+  }
+}
+
+/* ============= 768PX START ================= */
+
+@media screen and (max-width: 767px) {
+  /* ============ contact-section-form-input ==================== */
+
+  .form-input {
+    width: 100%;
+    height: 682px;
+    background: var(--form-bg);
+    border-radius: 5px;
+  }
+
+  .form-input .card {
+    border: 0;
+  }
+
+  .form-input label {
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+    position: relative;
+    padding-bottom: 5px;
+  }
+
+  .form-input .name-sec {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    padding-top: 56px;
+  }
+
+  .form-input .name-sec .first-input input {
+    display: block;
+    width: 220px;
+    height: 62px;
+    padding-left: 24px;
+    font-size: 18px;
+    border: none;
+  }
+
+  .form-input .name-sec .second-input input {
+    display: block;
+    width: 220px;
+    height: 62px;
+    padding-left: 24px;
+    font-size: 18px;
+    border: none;
+  }
+
+  .form-input .phone-sec {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    padding-top: 30px;
+  }
+
+  .form-input .phone-sec .first-input input {
+    display: block;
+    width: 220px;
+    height: 62px;
+    padding-left: 24px;
+    font-size: 18px;
+    border: none;
+  }
+
+  .form-input .phone-sec .second-input input {
+    display: block;
+    width: 220px;
+    height: 62px;
+    padding-left: 24px;
+    font-size: 18px;
+    border: none;
+  }
+
+  .form-input .subject-sec {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+  }
+
+  .form-input .subject input {
+    display: block;
+    width: 476px;
+    height: 62px;
+    padding-left: 24px;
+    font-size: 18px;
+    border: none;
+  }
+
+  .form-input .message-sec {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+  }
+
+  .form-input .message textarea {
+    display: block;
+    width: 476px;
+    max-height: 180px;
+    height: 132px;
+    padding-left: 24px;
+    font-size: 18px;
+    padding-top: 15px;
+    position: relative;
+    border: none;
+  }
+
+  .form-input .message input::placeholder {
+    position: absolute;
+    top: 24px;
+  }
+
+  .form-input .submit-btn {
+    align-items: center;
+    padding: 15px 24px;
+    gap: 5px;
+    width: 147px;
+    height: 40px;
+    line-height: 8px;
+    border: transparent;
+    position: relative;
+    top: 30px;
+    left: 35px;
+    background: linear-gradient(180deg, #e1a63f 0%, #ecc98b 100%);
+    box-shadow: 0px 3px 5px rgba(254, 190, 30, 0.25);
+    border-radius: 50px;
+  }
+
+  /* ======================== reviews-seciton ======================== */
+
+  .reviews-section .card {
+    padding: 20px;
+    border: 0;
+    border-radius: 0;
+  }
+
+  .reviews-section .header-title {
+    font-size: 32px;
+  }
+
+  .reviews-section .header-title::after {
+    content: "";
+    top: 45px;
+  }
+
+  .hidden-reviews-btn {
+    display: none;
+  }
+
+  .reviews-section .review-count .img-head {
+    padding-left: 10px;
+    padding-bottom: 15px;
+  }
+
+  .reviews-section .all-person-review {
+    display: none;
+  }
+
+  .reviews-section .card {
+    position: relative;
+  }
+
+  .reviews-section .carousel-control-next,
+  .reviews-section .carousel-control-prev {
+    position: absolute;
+    width: 5%;
+    top: 40%;
+  }
+
+  .reviews-section .carousel-control-next {
+    position: absolute;
+    right: -20px;
+    z-index: 999999;
+  }
+
+  .reviews-section .carousel-control-prev {
+    position: absolute;
+    left: -20px;
+    z-index: 999999;
+  }
+
+  .reviews-section .carousel-item .card .card-header {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+  }
+
+  .reviews-section .carousel-item .card .card-body {
+    border: none;
+    padding: 0;
+    background-color: transparent;
+  }
+
+  .reviews-section .carousel-item .card .img-head {
+    margin-top: 24px;
+    padding-left: 3px;
+    margin-left: 0;
+  }
+
+  .reviews-section .carousel-item .card .img-head img {
+    height: 45px;
+    width: 45px;
+  }
+
+  .reviews-section .carousel-item .card .reviwer-details {
+    display: flex;
+    padding-left: 0px;
+    padding-bottom: 0px;
+  }
+
+  .reviews-section .carousel-item .card .reviwer-details .star {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #112211;
+  }
+
+  .reviews-section .carousel-item .card .reviwer-details .name {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #112211;
+  }
+  .reviews-section .carousel-item .card .reviwer-details .devider {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .reviews-section .carousel-item .card.reviwer-details .comment {
+    font-weight: 400;
+    font-size: 14px;
+    color: #112211;
+  }
+
+  .reviews-section .revied-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0px;
+  }
+
+  .reviews-section {
+    padding: 0px;
+  }
+
+  #hide-review-section .carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    justify-content: left;
+    margin-right: 0%;
+    margin-bottom: 3rem;
+    margin-left: 0;
+    height: 50px;
+  }
+  #hide-review-section .carousel-indicators [data-bs-target] {
+    width: 8px;
+    height: 8px;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  #hide-review-section .carousel-indicators .active {
+    opacity: 1;
+    background-color: var(--main-color);
+  }
+}
+
+/* ============RESPONSIVE MAXIMUM MOBILE-DEVICES==================== */
+
+@media screen and (max-width: 575px) {
+  #full-contact .contact-seciton #clm {
+    padding-left: 10%;
+  }
+
+  #full-contact .contact-seciton #clm .header-subtitle {
+    text-align: justify;
+  }
+
+  /* ============== contact-section location/map ================= */
+
+  .contact-seciton {
+    padding: 50px;
+  }
+
+  .location-section .header {
+    display: flex;
+    justify-content: center;
+  }
+
+  .location-section .header h1 {
+    font-size: 32px;
+  }
+
+  .header-title::after {
+    content: "";
+    top: 45px;
+  }
+
+  /* ============== contact-sectinon-form-input ===================== */
+
+  .form-input {
+    min-height: 1032px;
+    background: var(--form-bg);
+  }
+
+  .form-input label {
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+    position: relative;
+    padding-bottom: 5px;
+  }
+
+  .form-input .name-sec {
+    display: block;
+    justify-content: center;
+    padding: 0px 25px;
+    padding-top: 56px;
+  }
+
+  .form-input .name-sec .first-input input {
+    display: block;
+    width: 100%;
+    height: 72px;
+    padding-left: 24px;
+    font-size: 16px;
+    border: none;
+    margin-bottom: 30px;
+  }
+
+  .form-input .name-sec .second-input input {
+    display: block;
+    width: 100%;
+    height: 72px;
+    padding-left: 24px;
+    font-size: 16px;
+    border: none;
+  }
+
+  .form-input .phone-sec {
+    display: block;
+    padding: 0px 25px;
+    padding-top: 30px;
+  }
+
+  .form-input .phone-sec .first-input input {
+    display: block;
+    width: 100%;
+    height: 72px;
+    padding-left: 24px;
+    font-size: 16px;
+    border: none;
+    margin-bottom: 30px;
+  }
+
+  .form-input .phone-sec .second-input input {
+    display: block;
+    width: 100%;
+    height: 72px;
+    padding-left: 24px;
+    font-size: 16px;
+    border: none;
+    margin-bottom: 20px;
+  }
+
+  .form-input .subject-sec {
+    display: block;
+    padding: 0px 25px;
+    padding-top: 0px;
+  }
+
+  .form-input .subject input {
+    display: block;
+    width: 100%;
+    height: 72px;
+    padding-left: 24px;
+    font-size: 16px;
+    border: none;
+    margin-bottom: 20px;
+  }
+
+  .form-input .message-sec {
+    display: block;
+    font-size: 16px;
+    padding: 0px 25px;
+  }
+
+  .form-input .message textarea {
+    display: block;
+    width: 100%;
+    max-height: 180px;
+    height: 142px;
+    padding-left: 24px;
+    font-size: 16px;
+    padding-top: 15px;
+    position: relative;
+    border: none;
+  }
+
+  .form-input .message input::placeholder {
+    position: absolute;
+    top: 24px;
+  }
+
+  .form-input .submit-btn {
+    align-items: center;
+    padding: 15px 24px;
+    gap: 5px;
+    width: 147px;
+    height: 40px;
+    line-height: 8px;
+    border: transparent;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    background: linear-gradient(180deg, #e1a63f 0%, #ecc98b 100%);
+    box-shadow: 0px 3px 5px rgba(254, 190, 30, 0.25);
+    border-radius: 50px;
+  }
+
+  /* =============== how to-get-section / contact-seciton =============== */
+
+  .how-to-get-section {
+    padding: 50px;
+  }
+
+  .how-to-get-section .header h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  /* ============ reviews-seciton ============= */
+  .reviews-section {
+    padding: 40px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .reviews-section .revied-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 20px;
+  }
+
+  .reviews-section .header-title {
+    padding-left: 15px;
+  }
+
+  .reviews-section .header-title::after {
+    left: 15px;
+  }
+
+  #hide-reviews-section .hide-comment {
+    text-align: justify;
+  }
+
+  .carousel-person-review .carousel-item .comment {
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width: 515px), (max-width: 470px) {
+  /* review-seciton */
+
+  .how-to-get-section {
+    padding: 35px;
+  }
+}
+
+@media screen and (max-width: 415px), (max-width: 430px) {
+}
+
+@media screen and (max-width: 355px) {
+}
+
+@media screen and (max-width: 300px) {
+  .container {
+    padding: 0px;
+  }
+}
+
+/* ============RESPONSIVE MINIMUM==================== */
+
+@media screen and (min-width: 576px) {
+  .carousel-item #carousel-img-one {
+    display: block;
+  }
+
+  .carousel-item #hide-caro-img1 {
+    display: none;
+  }
+
+  .carousel-item #carousel-img-two {
+    display: block;
+  }
+
+  .carousel-item #hide-caro-img2 {
+    display: none;
+  }
+
+  .carousel-item #carousel-img-three {
+    display: block;
+  }
+
+  .carousel-item #hide-caro-img3 {
+    display: none;
+  }
+
+  .carousel-item #carousel-img-four {
+    display: block;
+  }
+
+  .carousel-item #hide-caro-img4 {
+    display: none;
+  }
+  .carousel-item #carousel-img-five {
+    display: block;
+  }
+
+  .carousel-item #hide-caro-img5 {
+    display: none;
+  }
+
+  /* ================  location/map ....contact-page =================== */
+
+  .location-section .header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .location-section .view-map-btn {
+    gap: 5px;
+    width: 250px;
+    height: 40px;
+    background: #fff4e6;
+    border: 1px solid #bfa055;
+    box-shadow: 0px 3px 5px rgba(254, 190, 30, 0.15);
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: #112211;
+    transition: 0.3s;
+  }
+
+  .location-section .view-map-btn::after {
+    content: "\1F862";
+    padding-left: 5px;
+    font-weight: 700;
+  }
+
+  .location-section .view-map-btn:hover {
+    background-color: var(--main-color);
+    transition: 0.3s;
+  }
+
+  /*================ how-to-get-section===================== */
+}
+
+@media screen and (min-width: 768px) {
+  /* ==========REVIEWS-SECITON=========== */
+
+  .reviews-section .review-count .img-head {
+    padding-left: 10px;
+  }
+
+  .first-comment {
+    border-bottom: 2px solid #dadada;
+  }
+
+  .first-comment .reviwer-details {
+    display: flex;
+    padding-left: 0px;
+    padding-bottom: 0px;
+  }
+
+  .first-comment .reviwer-details .star {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #112211;
+  }
+
+  .first-comment .reviwer-details .name {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #112211;
+  }
+  .first-comment .reviwer-details .devider {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .first-comment .reviwer-details .comment {
+    font-weight: 400;
+    font-size: 14px;
+    color: #112211;
+  }
+
+  .reviews-section .carousel-person-review {
+    display: none;
+  }
+
+  /* =============== contact-section-form-input ====================== */
+
+  .form-input {
+    width: 100%;
+    height: 722px;
+    background: var(--form-bg);
+    border-radius: 5px;
+  }
+
+  .form-input label {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+    position: relative;
+    padding-bottom: 5px;
+  }
+
+  .form-input .name-sec {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 25px;
+    padding-top: 56px;
+  }
+
+  .form-input .name-sec .first-input input {
+    display: block;
+    width: 256px;
+    height: 72px;
+    padding-left: 24px;
+    font-size: 18px;
+    border: none;
+  }
+
+  .form-input .name-sec .second-input input {
+    display: block;
+    width: 256px;
+    height: 72px;
+    padding-left: 24px;
+    font-size: 18px;
+    border: none;
+  }
+
+  .form-input .phone-sec {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 25px;
+    padding-top: 30px;
+  }
+
+  .form-input .phone-sec .first-input input {
+    display: block;
+    width: 256px;
+    height: 72px;
+    padding-left: 24px;
+    font-size: 18px;
+    border: none;
+  }
+
+  .form-input .phone-sec .second-input input {
+    display: block;
+    width: 256px;
+    height: 72px;
+    padding-left: 24px;
+    font-size: 18px;
+    border: none;
+  }
+
+  .form-input .subject-sec {
+    display: flex;
+    justify-content: center;
+    padding: 10px 25px;
+    padding-top: 20px;
+  }
+
+  .form-input .subject input {
+    display: block;
+    width: 590px;
+    height: 72px;
+    padding-left: 24px;
+    font-size: 18px;
+    border: none;
+  }
+
+  .form-input .message-sec {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+  }
+
+  .form-input .message textarea {
+    display: block;
+    width: 590px;
+    max-height: 180px;
+    height: 142px;
+    padding-left: 24px;
+    font-size: 18px;
+    padding-top: 15px;
+    position: relative;
+    border: none;
+  }
+
+  .form-input .message input::placeholder {
+    position: absolute;
+    top: 24px;
+  }
+
+  .form-input .submit-btn {
+    align-items: center;
+    padding: 15px 24px;
+    gap: 5px;
+    width: 147px;
+    height: 40px;
+    line-height: 8px;
+    border: transparent;
+    position: relative;
+    top: 30px;
+    left: 60px;
+    background: linear-gradient(180deg, #e1a63f 0%, #ecc98b 100%);
+    box-shadow: 0px 3px 5px rgba(254, 190, 30, 0.25);
+    border-radius: 50px;
+  }
+}
+
+/* ==========min-width 992px 🔴🟠🟡🟢🔵================= */
+
+@media screen and (min-width: 992px) {
+  .header-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #000000;
+    position: relative;
+    display: inline-block;
+  }
+
+  .header-title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 45px;
+    height: 2px;
+    width: 100%;
+    background-color: #c09b5a;
+  }
+
+  .header-subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  /* ================ reviews-seciton =============== */
+
+  .reviews-section .review-count .img-head {
+    padding-left: 25px;
+    padding-top: 15px;
+  }
+
+  /* ============= contact/section/ form- ================== */
+
+  .form-input {
+    width: 100%;
+    height: 682px;
+    background: var(--form-bg);
+    border-radius: 5px;
+  }
+
+  .form-input label {
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+    position: relative;
+    padding-bottom: 5px;
+  }
+
+  .form-input .name-sec {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    padding-top: 56px;
+  }
+
+  .form-input .name-sec .first-input input {
+    display: block;
+    width: 210px;
+    height: 52px;
+    padding-left: 24px;
+    font-size: 18px;
+    border: none;
+  }
+
+  .form-input .name-sec .second-input input {
+    display: block;
+    width: 210px;
+    height: 52px;
+    padding-left: 24px;
+    font-size: 18px;
+    border: none;
+  }
+
+  .form-input .phone-sec {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    padding-top: 20px;
+  }
+
+  .form-input .phone-sec .first-input input {
+    display: block;
+    width: 210px;
+    height: 52px;
+    padding-left: 24px;
+    font-size: 18px;
+    border: none;
+  }
+
+  .form-input .phone-sec .second-input input {
+    display: block;
+    width: 210px;
+    height: 52px;
+    padding-left: 24px;
+    font-size: 18px;
+    border: none;
+  }
+
+  .form-input .subject-sec {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+  }
+
+  .form-input .subject input {
+    display: block;
+    width: 436px;
+    height: 52px;
+    padding-left: 24px;
+    font-size: 18px;
+    border: none;
+  }
+
+  .form-input .message-sec {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+  }
+
+  .form-input .message textarea {
+    display: block;
+    width: 436px;
+    max-height: 180px;
+    height: 132px;
+    padding-left: 24px;
+    font-size: 18px;
+    padding-top: 15px;
+    position: relative;
+    border: none;
+  }
+
+  .form-input .message input::placeholder {
+    position: absolute;
+    top: 24px;
+  }
+
+  .form-input .submit-btn {
+    align-items: center;
+    padding: 15px 24px;
+    gap: 5px;
+    width: 147px;
+    height: 40px;
+    line-height: 8px;
+    border: transparent;
+    position: relative;
+    top: 30px;
+    left: 25px;
+    background: linear-gradient(180deg, #e1a63f 0%, #ecc98b 100%);
+    box-shadow: 0px 3px 5px rgba(254, 190, 30, 0.25);
+    border-radius: 50px;
+  }
+}
+
+/* ==========min-width 1200 🔴🟠🟡🟢🔵================= */
+
+@media screen and (min-width: 1200px) {
+  /* ================= reviews-section ================ */
+
+  .reviews-section .review-count .img-head {
+    padding-left: 40px;
+    padding-top: 15px;
+  }
+
+  .footer-list {
+    display: inline-flex;
+    margin: 0px 10px;
+    margin-top: 10px;
+    padding: 5px 8px;
+    text-align: center;
+  }
+
+  /* ============= contact/section/ form- ================== */
+
+  .form-input {
+    width: 100%;
+    height: 682px;
+    background: var(--form-bg);
+    border-radius: 5px;
+  }
+
+  .form-input label {
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+    position: relative;
+    padding-bottom: 5px;
+  }
+
+  .form-input .name-sec {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    padding-top: 56px;
+  }
+
+  .form-input .name-sec .first-input input {
+    display: block;
+    width: 240px;
+    height: 62px;
+    padding-left: 24px;
+    font-size: 18px;
+    border: none;
+  }
+
+  .form-input .name-sec .second-input input {
+    display: block;
+    width: 240px;
+    height: 62px;
+    padding-left: 24px;
+    font-size: 18px;
+    border: none;
+  }
+
+  .form-input .phone-sec {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    padding-top: 30px;
+  }
+
+  .form-input .phone-sec .first-input input {
+    display: block;
+    width: 240px;
+    height: 62px;
+    padding-left: 24px;
+    font-size: 18px;
+    border: none;
+  }
+
+  .form-input .phone-sec .second-input input {
+    display: block;
+    width: 240px;
+    height: 62px;
+    padding-left: 24px;
+    font-size: 18px;
+    border: none;
+  }
+
+  .form-input .subject-sec {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+  }
+
+  .form-input .subject input {
+    display: block;
+    width: 506px;
+    height: 62px;
+    padding-left: 24px;
+    font-size: 18px;
+    border: none;
+  }
+
+  .form-input .message-sec {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+  }
+
+  .form-input .message textarea {
+    display: block;
+    width: 506px;
+    max-height: 180px;
+    height: 132px;
+    padding-left: 24px;
+    font-size: 18px;
+    padding-top: 15px;
+    position: relative;
+    border: none;
+  }
+
+  .form-input .message input::placeholder {
+    position: absolute;
+    top: 24px;
+  }
+
+  .form-input .submit-btn {
+    align-items: center;
+    padding: 15px 24px;
+    gap: 5px;
+    width: 147px;
+    height: 40px;
+    line-height: 8px;
+    border: transparent;
+    position: relative;
+    top: 30px;
+    left: 35px;
+    background: linear-gradient(180deg, #e1a63f 0%, #ecc98b 100%);
+    box-shadow: 0px 3px 5px rgba(254, 190, 30, 0.25);
+    border-radius: 50px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  /* ============= contact/section/ form- ================== */
+
+  .form-input {
+    width: 100%;
+    height: 712px;
+    background: var(--form-bg);
+    border-radius: 5px;
+  }
+
+  .form-input .name-sec {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 25px;
+    padding-top: 56px;
+  }
+
+  .form-input .name-sec .first-input input {
+    display: block;
+    width: 256px;
+    height: 72px;
+  }
+
+  .form-input .name-sec .second-input input {
+    width: 256px;
+    height: 72px;
+  }
+
+  .form-input .phone-sec {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 25px;
+    padding-top: 20px;
+  }
+
+  .form-input .phone-sec .first-input input {
+    display: block;
+    width: 256px;
+    height: 72px;
+  }
+
+  .form-input .phone-sec .second-input input {
+    width: 256px;
+    height: 72px;
+  }
+
+  .form-input .subject input {
+    width: 546px;
+    height: 72px;
+  }
+  .form-input .message textarea {
+    width: 546px;
+  }
+
+  .form-input .submit-btn {
+    left: 55px;
+  }
+}
