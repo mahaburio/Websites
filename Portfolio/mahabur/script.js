@@ -98,6 +98,144 @@ nodeBtn.addEventListener("click", function () {
   bsBtn.classList.remove("active");
 });
 
+//  ? ========== Projects Section Button ==========
+
+let allBtn = document.getElementById("allBtn");
+let webBtn = document.getElementById("webBtn");
+let landBtn = document.getElementById("landBtn");
+let resBtn = document.getElementById("resBtn");
+let devBtn = document.getElementById("devBtn");
+
+let firstBox = document.getElementById('firstBox');
+let secondBox = document.getElementById('secondBox');
+let thirdBox = document.getElementById('thirdBox');
+let fourBox = document.getElementById('fourBox');
+let fiveBox = document.getElementById('fiveBox');
+let sixBox = document.getElementById('sixBox');
+let sevenBox = document.getElementById('sevenBox');
+let eightBox = document.getElementById('eightBox');
+let nineBox = document.getElementById('nineBox');
+let tenBox = document.getElementById('tenBox');
+let elevenBox = document.getElementById('elevenBox');
+let twelveBox = document.getElementById('twelveBox');
+
+
+allBtn.addEventListener("click", function () {
+  firstBox.style.display='block';
+  secondBox.style.display='block';
+  thirdBox.style.display='block';
+  fourBox.style.display='block';
+  fiveBox.style.display='block';
+  sixBox.style.display='block';
+  sevenBox.style.display='block';
+  eightBox.style.display='block';
+  nineBox.style.display='block';
+  tenBox.style.display='block';
+  elevenBox.style.display='block';
+  twelveBox.style.display='block';
+
+
+  this.classList.add("btnActive");
+
+  webBtn.classList.remove("btnActive");
+  landBtn.classList.remove("btnActive");
+  resBtn.classList.remove("btnActive");
+  devBtn.classList.remove("btnActive");
+});
+
+webBtn.addEventListener("click", function () {
+
+  firstBox.style.display='none';
+  secondBox.style.display='none';
+  thirdBox.style.display='none';
+  fourBox.style.display='block';
+  fiveBox.style.display='block';
+  sixBox.style.display='block';
+  sevenBox.style.display='none';
+  eightBox.style.display='none';
+  nineBox.style.display='none';
+  tenBox.style.display='none';
+  elevenBox.style.display='none';
+  twelveBox.style.display='none';
+
+
+  this.classList.add("btnActive");
+
+  allBtn.classList.remove("btnActive");
+  landBtn.classList.remove("btnActive");
+  resBtn.classList.remove("btnActive");
+  devBtn.classList.remove("btnActive");
+});
+
+landBtn.addEventListener("click", function () {
+
+  firstBox.style.display='none';
+  secondBox.style.display='none';
+  thirdBox.style.display='none';
+  fourBox.style.display='none';
+  fiveBox.style.display='none';
+  sixBox.style.display='none';
+  sevenBox.style.display='block';
+  eightBox.style.display='none';
+  nineBox.style.display='block';
+  tenBox.style.display='none';
+  elevenBox.style.display='block';
+  twelveBox.style.display='block';
+
+  this.classList.add("btnActive");
+
+  allBtn.classList.remove("btnActive");
+  webBtn.classList.remove("btnActive");
+  resBtn.classList.remove("btnActive");
+  devBtn.classList.remove("btnActive");
+});
+
+resBtn.addEventListener("click", function () {
+
+  firstBox.style.display='none';
+  secondBox.style.display='none';
+  thirdBox.style.display='none';
+  fourBox.style.display='none';
+  fiveBox.style.display='none';
+  sixBox.style.display='none';
+  sevenBox.style.display='none';
+  eightBox.style.display='block';
+  nineBox.style.display='none';
+  tenBox.style.display='block';
+  elevenBox.style.display='none';
+  twelveBox.style.display='none';
+
+  this.classList.add("btnActive");
+
+  allBtn.classList.remove("btnActive");
+  webBtn.classList.remove("btnActive");
+  landBtn.classList.remove("btnActive");
+  devBtn.classList.remove("btnActive");
+});
+
+devBtn.addEventListener("click", function () {
+
+  firstBox.style.display='none';
+  secondBox.style.display='block';
+  thirdBox.style.display='block';
+  fourBox.style.display='none';
+  fiveBox.style.display='none';
+  sixBox.style.display='none';
+  sevenBox.style.display='none';
+  eightBox.style.display='none';
+  nineBox.style.display='none';
+  tenBox.style.display='none';
+  elevenBox.style.display='none';
+  twelveBox.style.display='none';
+
+  this.classList.add("btnActive");
+
+  allBtn.classList.remove("btnActive");
+  webBtn.classList.remove("btnActive");
+  landBtn.classList.remove("btnActive");
+  resBtn.classList.remove("btnActive");
+});
+
 //  ? ========== Auto Typing JS ==========
 
 const menuBtn = document.getElementById("menuBtn");
