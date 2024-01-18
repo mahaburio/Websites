@@ -106,34 +106,32 @@ let landBtn = document.getElementById("landBtn");
 let resBtn = document.getElementById("resBtn");
 let devBtn = document.getElementById("devBtn");
 
-let firstBox = document.getElementById('firstBox');
-let secondBox = document.getElementById('secondBox');
-let thirdBox = document.getElementById('thirdBox');
-let fourBox = document.getElementById('fourBox');
-let fiveBox = document.getElementById('fiveBox');
-let sixBox = document.getElementById('sixBox');
-let sevenBox = document.getElementById('sevenBox');
-let eightBox = document.getElementById('eightBox');
-let nineBox = document.getElementById('nineBox');
-let tenBox = document.getElementById('tenBox');
-let elevenBox = document.getElementById('elevenBox');
-let twelveBox = document.getElementById('twelveBox');
-
+let firstBox = document.getElementById("firstBox");
+let secondBox = document.getElementById("secondBox");
+let thirdBox = document.getElementById("thirdBox");
+let fourBox = document.getElementById("fourBox");
+let fiveBox = document.getElementById("fiveBox");
+let sixBox = document.getElementById("sixBox");
+let sevenBox = document.getElementById("sevenBox");
+let eightBox = document.getElementById("eightBox");
+let nineBox = document.getElementById("nineBox");
+let tenBox = document.getElementById("tenBox");
+let elevenBox = document.getElementById("elevenBox");
+let twelveBox = document.getElementById("twelveBox");
 
 allBtn.addEventListener("click", function () {
-  firstBox.style.display='block';
-  secondBox.style.display='block';
-  thirdBox.style.display='block';
-  fourBox.style.display='block';
-  fiveBox.style.display='block';
-  sixBox.style.display='block';
-  sevenBox.style.display='block';
-  eightBox.style.display='block';
-  nineBox.style.display='block';
-  tenBox.style.display='block';
-  elevenBox.style.display='block';
-  twelveBox.style.display='block';
-
+  firstBox.style.display = "block";
+  secondBox.style.display = "block";
+  thirdBox.style.display = "block";
+  fourBox.style.display = "block";
+  fiveBox.style.display = "block";
+  sixBox.style.display = "block";
+  sevenBox.style.display = "block";
+  eightBox.style.display = "block";
+  nineBox.style.display = "block";
+  tenBox.style.display = "block";
+  elevenBox.style.display = "block";
+  twelveBox.style.display = "block";
 
   this.classList.add("btnActive");
 
@@ -144,20 +142,18 @@ allBtn.addEventListener("click", function () {
 });
 
 webBtn.addEventListener("click", function () {
-
-  firstBox.style.display='none';
-  secondBox.style.display='none';
-  thirdBox.style.display='none';
-  fourBox.style.display='block';
-  fiveBox.style.display='block';
-  sixBox.style.display='block';
-  sevenBox.style.display='none';
-  eightBox.style.display='none';
-  nineBox.style.display='none';
-  tenBox.style.display='none';
-  elevenBox.style.display='none';
-  twelveBox.style.display='none';
-
+  firstBox.style.display = "none";
+  secondBox.style.display = "none";
+  thirdBox.style.display = "none";
+  fourBox.style.display = "block";
+  fiveBox.style.display = "block";
+  sixBox.style.display = "block";
+  sevenBox.style.display = "none";
+  eightBox.style.display = "none";
+  nineBox.style.display = "none";
+  tenBox.style.display = "none";
+  elevenBox.style.display = "none";
+  twelveBox.style.display = "none";
 
   this.classList.add("btnActive");
 
@@ -168,19 +164,18 @@ webBtn.addEventListener("click", function () {
 });
 
 landBtn.addEventListener("click", function () {
-
-  firstBox.style.display='none';
-  secondBox.style.display='none';
-  thirdBox.style.display='none';
-  fourBox.style.display='none';
-  fiveBox.style.display='none';
-  sixBox.style.display='none';
-  sevenBox.style.display='block';
-  eightBox.style.display='none';
-  nineBox.style.display='block';
-  tenBox.style.display='none';
-  elevenBox.style.display='block';
-  twelveBox.style.display='block';
+  firstBox.style.display = "none";
+  secondBox.style.display = "none";
+  thirdBox.style.display = "none";
+  fourBox.style.display = "none";
+  fiveBox.style.display = "none";
+  sixBox.style.display = "none";
+  sevenBox.style.display = "block";
+  eightBox.style.display = "none";
+  nineBox.style.display = "block";
+  tenBox.style.display = "none";
+  elevenBox.style.display = "block";
+  twelveBox.style.display = "block";
 
   this.classList.add("btnActive");
 
@@ -191,19 +186,18 @@ landBtn.addEventListener("click", function () {
 });
 
 resBtn.addEventListener("click", function () {
-
-  firstBox.style.display='none';
-  secondBox.style.display='none';
-  thirdBox.style.display='none';
-  fourBox.style.display='none';
-  fiveBox.style.display='none';
-  sixBox.style.display='none';
-  sevenBox.style.display='none';
-  eightBox.style.display='block';
-  nineBox.style.display='none';
-  tenBox.style.display='block';
-  elevenBox.style.display='none';
-  twelveBox.style.display='none';
+  firstBox.style.display = "none";
+  secondBox.style.display = "none";
+  thirdBox.style.display = "none";
+  fourBox.style.display = "none";
+  fiveBox.style.display = "none";
+  sixBox.style.display = "none";
+  sevenBox.style.display = "none";
+  eightBox.style.display = "block";
+  nineBox.style.display = "none";
+  tenBox.style.display = "block";
+  elevenBox.style.display = "none";
+  twelveBox.style.display = "none";
 
   this.classList.add("btnActive");
 
@@ -214,19 +208,18 @@ resBtn.addEventListener("click", function () {
 });
 
 devBtn.addEventListener("click", function () {
-
-  firstBox.style.display='none';
-  secondBox.style.display='block';
-  thirdBox.style.display='block';
-  fourBox.style.display='none';
-  fiveBox.style.display='none';
-  sixBox.style.display='none';
-  sevenBox.style.display='none';
-  eightBox.style.display='none';
-  nineBox.style.display='none';
-  tenBox.style.display='none';
-  elevenBox.style.display='none';
-  twelveBox.style.display='none';
+  firstBox.style.display = "none";
+  secondBox.style.display = "block";
+  thirdBox.style.display = "block";
+  fourBox.style.display = "none";
+  fiveBox.style.display = "none";
+  sixBox.style.display = "none";
+  sevenBox.style.display = "none";
+  eightBox.style.display = "none";
+  nineBox.style.display = "none";
+  tenBox.style.display = "none";
+  elevenBox.style.display = "none";
+  twelveBox.style.display = "none";
 
   this.classList.add("btnActive");
 
@@ -236,7 +229,41 @@ devBtn.addEventListener("click", function () {
   resBtn.classList.remove("btnActive");
 });
 
-//  ? ========== Auto Typing JS ==========
+//  ? ========== Card JS ==========
+
+let prevBtn = document.getElementById("prevBtn");
+let nextBtn = document.getElementById("nextBtn");
+
+let cardSec = document.getElementById("cardSec");
+
+let personOne = document.getElementById("personOne");
+let personTwo = document.getElementById("personTwo");
+let personThree = document.getElementById("personThree");
+
+let isClick = 0;
+
+nextBtn.addEventListener("click", function () {
+  isClick++;
+  if (isClick == 1) {
+    cardSec.style.transform = "translateX(-33%)";
+    prevBtn.addEventListener("click", function () {
+      cardSec.style.transform = "translateX(-0%)";
+      isClick = 0;
+    });
+  } else if (isClick == 2) {
+    cardSec.style.transform = "translateX(-66.5%)";
+    prevBtn.addEventListener("click", function () {
+      cardSec.style.transform = "translateX(-33%)";
+      prevBtn.addEventListener("click", function () {
+        cardSec.style.transform = "translateX(-0%)";
+      });
+    });
+  } else {
+    isClick === 0;
+  }
+});
+
+//  ? ========== Navbar JS ==========
 
 const menuBtn = document.getElementById("menuBtn");
 const navItem = document.getElementById("navItem");
