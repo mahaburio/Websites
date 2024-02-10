@@ -923,12 +923,10 @@ body {
 
 .testimonial_sec .container{
   padding: 30px 80px;
-  border: 1px solid #fff;
   height: 100%;
 }
 
 .testimonial_sec .container .content{
-  border: 1px solid red;
   min-height: calc(100% - 20%);
   padding: 10px;
   overflow: hidden;
@@ -988,7 +986,7 @@ body {
   width: 20vw;
   height: 1px;
   top: 20px;
-  left: 180px;
+  left: 220px;
   position: absolute;
   background-color: #b9b5b531;
 }
